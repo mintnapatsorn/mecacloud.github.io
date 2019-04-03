@@ -18,22 +18,11 @@ email: ridnarong.promya@nectec.or.th
 description: >- # this means to ignore newlines until "baseurl:"
   This website provide collections of documents, tutorial and presentation of MECAs Cloud Container Service Platform.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://meca.in.th" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://docs.meca.in.th" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-cayman
-# plugins:
-#   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+collections:
+  tutorials:
+    output: true

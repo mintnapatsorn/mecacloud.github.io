@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-# Getting started
-
 # Tutorial
-
+{% for tutorial in site.tutorials %}
+  * [{{ tutorial.title }}]({{ tutorial.url }})
+{% endfor %}
 # Presentation
 รวบรวม การนำเสนอ และอบรม ที่เกี่ยวข้องกับ MECAs
 
