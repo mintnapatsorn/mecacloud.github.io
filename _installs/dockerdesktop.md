@@ -16,7 +16,7 @@ Docker Desktop for Windows คือ Docker Community Edition (CE) สำหร�
   - CPU SLAT-capable feature.
   - At least 4GB of RAM
 
-Note: หากระบบของคุณไม่ตรงตามข้อกำหนดในการเรียกใช้ Docker Desktop สำหรับ Windows คุณสามารถติดตั้ง [Docker Toolbox]() ซึ่งใช้ Oracle Virtual Box แทน Hyper-V
+Note: หากระบบของคุณไม่ตรงตามข้อกำหนดในการเรียกใช้ Docker Desktop สำหรับ Windows คุณสามารถติดตั้ง [Docker Toolbox](/installs/dockertoolbox.html) ซึ่งใช้ Oracle Virtual Box แทน Hyper-V
 
 ![docker-enable-hyper-v](/assets/docker-enable-hyper-v.png)
 
