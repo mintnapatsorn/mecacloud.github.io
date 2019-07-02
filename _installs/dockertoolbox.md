@@ -14,7 +14,7 @@ This is the instruction of how to install docker for window
 - 2.Text Editor installation Ex. [Visual Studio code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html) or [Wordpad](https://microsoft_wordpad.en.downloadastro.com/)
 - 3.Installation Docker
 
-# Installation Docker 
+# Installation Docker
 
 Docker is a set of coupled software-as-a-service and platform-as-a-service products that use operating-system-level virtualization to develop and deliver software in packages called containers. The software that hosts the containers is called Docker Engine. It can build likes docker images or build from another type of file. Example likes you can build jekyll(Simple,blog-aware of static site),docker will find the images and install by using **`docker run`** command. It can be pull database that support in docker likes mariadb too. 
 
