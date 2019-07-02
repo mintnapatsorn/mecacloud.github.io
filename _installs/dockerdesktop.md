@@ -1,5 +1,5 @@
 ---
-title: Install Docker Desktop for Windows
+title: Install Docker Desktop
 layout: tutorial
 ---
 

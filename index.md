@@ -2,13 +2,17 @@
 layout: default
 ---
 
-# Docker
-{% for docker in site.dockers %}
-  * [{{ docker.title }}]({{ docker.url }})
+# Installation
+{% for install in site.installs %}
+  * [{{ install.title }}]({{ install.url }})
 {% endfor %}
 # Tutorial
 {% for tutorial in site.tutorials %}
   * [{{ tutorial.title }}]({{ tutorial.url }})
+{% endfor %}
+# Concept
+{% for concept in site.concepts %}
+  * [{{ concept.title }}]({{ concept.url }})
 {% endfor %}
 # Presentation
 รวบรวม การนำเสนอ และอบรม ที่เกี่ยวข้องกับ MECAs

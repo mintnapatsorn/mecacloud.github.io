@@ -1,5 +1,5 @@
 ---
-title: Installing Git & Python
+title: Install Git & Python
 layout: tutorial
 ---
 [**<< Installation Docker**](/dockers/Document.html)
