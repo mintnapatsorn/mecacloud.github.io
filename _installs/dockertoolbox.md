@@ -12,7 +12,7 @@ This is the instruction of how to install docker for window
 **Installation**
 - 1.Please install [Git & Python](/installs/Gitpython.html)
 - 2.Text Editor installation Ex. [Visual Studio code](https://code.visualstudio.com/) or [Notepad++](https://notepad-plus-plus.org/download/v7.7.1.html) or [Wordpad](https://microsoft_wordpad.en.downloadastro.com/)
-- 3.[Installation Docker](/dockers/Document.html)
+- 3.Installation Docker
 
 # Installation Docker 
 
