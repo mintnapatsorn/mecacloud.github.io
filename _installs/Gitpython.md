@@ -2,7 +2,7 @@
 title: Install Git & Python
 layout: tutorial
 ---
-[**<< Installation Docker**](/installs/dockertoolbox.html)
+[**<< Installation Docker Toolbox**](/installs/dockertoolbox.html)
 # Installation GIT 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. Git can easily keep your project with push command in your command prompt or can be click push from git desktop. Git can also clone your project that upload in your github to be in your computer make its convenient to user.
 
