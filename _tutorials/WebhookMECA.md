@@ -21,5 +21,4 @@ title: Git webhook
   ![Create images1](/assets/webhook/webhook1.png)
   
  3.
-  <br>
  4.
