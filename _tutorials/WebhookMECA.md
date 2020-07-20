@@ -12,7 +12,11 @@ title: Git webhook
 
  1. Firstly, create new container that's have [webhook](https://hub.docker.com/r/maxoatzadn/webhook) image inside.
     <br>
-    `Container Name`: <"Your container name">, `Image Name`: "maxoatzadn/webhook", `Ports`: "80" 
+    `Container Name`: <"Your container name">, `Image Name`: "maxoatzadn/webhook", `Ports`: "80"
+    <br><br>
+    
+    Hint:
+    > Port 80 is default port of nginx.
  
     ![Create images1](/assets/webhook/webhook2.png)
   
