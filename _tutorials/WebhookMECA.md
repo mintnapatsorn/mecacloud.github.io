@@ -117,7 +117,7 @@ title: Git webhook
  * ### Setting Git Webhook 
  <br>
  
- 1. Go to your project on ![GitHub](https://github.com/), then click **setting** select **webhook** menu and click **Add webhook**. <br><br>
+ 1. Go to your project on [GitHub](https://github.com/), then click **setting** select **webhook** menu and click **Add webhook**. <br><br>
     ![hook1](/assets/git_webhook/hook1.png) <br><br><br>
  2. Change `Payload URL` to your domain name and append `/_hook`.<br>
     Select `Content type` to `application/json`.<br>
