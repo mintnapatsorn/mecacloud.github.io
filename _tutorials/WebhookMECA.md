@@ -2,7 +2,7 @@
 layout: tutorial
 title: Git webhook
 ---
-## Get start git Webhook
+## Getting started git Webhook
 
 * ### What's git Webhook 💻
 
