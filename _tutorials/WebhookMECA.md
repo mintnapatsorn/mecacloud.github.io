@@ -57,11 +57,9 @@ title: Git webhook
  6. create new volume, type `Config Map`. <br>
     `Volume Name`: <"Your Volume name"> <br>
     `ConfigMap Name`: <"Your ConfigMap name"><br>
-    then, click `Add New Config Map`. <br>
+    then, click `Add New Config Map`. <br><br>
     ![volume3](/assets/git_webhook/voulme3.png)
-    
-    <br>
-    
+        
  7. Insert new ConfigMap data that's for change config file of nginx. <br>
     `Key`: "default.conf" <br>
     `Content`: at below <br><br>
