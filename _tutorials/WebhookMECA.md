@@ -127,25 +127,26 @@ title: Git webhook
    ![hook3](/assets/git_webhook/hook3.png) <br><br><br>
  4. Test git webhook by change content project and push. <br>
  ```
-<!DOCTYPE html>
-<html>
-<head>
-<title>Sawadee to nginx!</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>Hello World !</h1>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Sawadee to nginx!</title>
+    <style>
+        body {
+            width: 35em;
+            margin: 0 auto;
+            font-family: Tahoma, Verdana, Arial, sans-serif;
+        }
+    </style>
+    </head>
+    <body>
+    <h1>Hello World !</h1>
+    </body>
+    </html>
  ```
  <br>
- 
- 
+   Now, Content of your website will change to below picture. <br>
+   ![hook3](/assets/git_webhook/hook3.png) <br><br>
+   
    
 Good luck ... ✌️
