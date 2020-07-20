@@ -63,6 +63,7 @@ title: Git webhook
  7. Insert new ConfigMap data that's for change config file of nginx. <br>
     `Key`: "default.conf" <br>
     `Content`: you can use default.conf file below. <br><br>
+    > About root and index are root contents of your app (html) from [GitHub](https://github.com/) for nginx. 
     ```
     # default.conf
     server {
@@ -82,15 +83,16 @@ title: Git webhook
     location /_hook {
         default_type text/html;
         content_by_lua_block {
-            os.execute("/myShellScript.sh")
+            os.execute("/bin/webhook.sh")
             ngx.say("<p>pull complete !!</p>")
         } 
-    }
+      }
     }
     ```
     <br>
     
     ![volume4](/assets/git_webhook/voulme4.png)
+ 8. 
     ![volume6](/assets/git_webhook/volume6.png)
  4.
 
