@@ -17,8 +17,7 @@ title: Git webhook
     `Ports`: "80"
     <br><br>
     
-    Hint:
-    > Port 80 is default port of nginx.
+    > Hint: Port 80 is default port of nginx.
  
     ![Create images1](/assets/webhook/webhook2.png)
   
