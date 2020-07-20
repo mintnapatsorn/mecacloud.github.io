@@ -30,6 +30,8 @@ title: Git webhook
     
     > Hint: Port 80 is default port of nginx.
     
+    <br>
+    
     ![container1](/assets/git_webhook/container1.png)
     
     <br>
