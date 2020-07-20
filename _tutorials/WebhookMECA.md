@@ -103,14 +103,20 @@ title: Git webhook
     
     <br>
     
- 9. Click **deploy**. <br>
+ 9. Click **Deploy**. <br>
     ![deploy](/assets/git_webhook/deploy.png) <br>
     <br>
  10. Now we got new workload that's contain webhook container inside pod.
-     <br>
+     <br><br>
     ![workload](/assets/git_webhook/workload.png) <br><br>
  11. Scroll down to services and click link for view your web page has deploy.
-    <br>
+    <br><br>
     ![deployment1](/assets/git_webhook/deployment1.png) <br><br>
  
+ * ### Set git webhook 
+ <br>
+ 1. Go to your project on [GitHub](https://github.com/), then click **setting** select **webhook** menu and click **Add webhook**.   
+   ![hook1](/assets/git_webhook/hook1.png) <br><br>
+   ![hook2](/assets/git_webhook/hook2.png) <br><br>
+   ![hook3](/assets/git_webhook/hook3.png) <br><br>
 Good luck ... ✌️
