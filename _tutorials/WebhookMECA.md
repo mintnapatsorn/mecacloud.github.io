@@ -16,7 +16,7 @@ title: Git webhook
     </p>
     <!--![stateful_set](/assets/git_webhook/statefull.png)-->
  2. Fill `Stateful Set Name` and `Service Name`.
-     <br>
+     <br><br>
      <img src="/assets/git_webhook/stateful2.png">
  3. create new container that's have [webhook](https://hub.docker.com/r/maxoatzadn/webhook) image inside.
     <br>
@@ -31,11 +31,13 @@ title: Git webhook
     > Hint: Port 80 is default port of nginx.
     
     ![container1](/assets/git_webhook/container1.png)
+    
  4. fill Enviroment Varible with your [GitHub](https://github.com/) clone with Https for application's contents to container.
+    <br>
      `Environment Variable`:<br>
         `Key`: "LOCATION"<br>
         `Value`: "<Your project on github>"
-        eg. https://github.com/toptapznt/nginx-test.git
+        (eg. https://github.com/toptapznt/nginx-test.git)
     <br>
     ![container2](/assets/git_webhook/container2.png)
   
