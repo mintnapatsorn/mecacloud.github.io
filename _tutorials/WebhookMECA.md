@@ -21,14 +21,11 @@ title: Git webhook
     <br><br>
     
     > Hint: Port 80 is default port of nginx.
- 
-    ![](/assets/webhook/webhook2.png)
   
     <br><br> 
     
  2. fill Enviroment Varible with your [GitHub](https://github.com/) clone with Https for application's contents to container.
  
-  ![Create images1](/assets/webhook/webhook1.png)
   
  3.
  4.
