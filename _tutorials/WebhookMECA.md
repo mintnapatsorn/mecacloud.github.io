@@ -148,7 +148,7 @@ title: Git webhook
  ```
    <br>
    Now, Content of your website will change to below picture. <br><br>
-   ![hook3](/assets/git_webhook/hook3.png) <br><br>
+   ![hello](/assets/git_webhook/hello.png) <br><br>
    
    Reference : https://hub.docker.com/r/maxoatzadn/webhook
    <br>
