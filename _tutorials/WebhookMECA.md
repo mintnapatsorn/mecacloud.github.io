@@ -36,7 +36,7 @@ title: Git webhook
     <br>
      `Environment Variable`:<br>
         `Key`: "LOCATION"<br>
-        `Value`: "<Your project on github>"
+        `Value`: <"Your project on github">
         (eg. https://github.com/toptapznt/nginx-test.git)
     <br><br>
     ![container2](/assets/git_webhook/container2.png)
@@ -50,7 +50,7 @@ title: Git webhook
     `Selector`: select container that's your create.
     `Ports`:<br>
        `Name`: <"Name service port"><br>
-       `Service Port`: "80"
+       `Service Port`: "80" <br>
     ![service1](/assets/git_webhook/service1.png)
     
  6. create new volume, type `Config Map`. <br>
