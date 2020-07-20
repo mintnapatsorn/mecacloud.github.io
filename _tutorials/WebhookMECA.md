@@ -23,7 +23,7 @@ title: Git webhook
     `Container Name`: <"Your container name"> <br>
     `Image Name`: "maxoatzadn/webhook" <br>
     `Ports`:<br>
-       `Name`: "<Name container port>"<br>
+       `Name`: <"Name container port"><br>
        `Port`: "80"
     
     <br>
@@ -38,7 +38,7 @@ title: Git webhook
         `Key`: "LOCATION"<br>
         `Value`: "<Your project on github>"
         (eg. https://github.com/toptapznt/nginx-test.git)
-    <br>
+    <br><br>
     ![container2](/assets/git_webhook/container2.png)
   
     <br><br> 
@@ -49,7 +49,7 @@ title: Git webhook
      select : `Label` <br>
     `Selector`: select container that's your create.
     `Ports`:<br>
-       `Name`: "<Name service port>"<br>
+       `Name`: <"Name service port"><br>
        `Service Port`: "80"
     ![service1](/assets/git_webhook/service1.png)
     
