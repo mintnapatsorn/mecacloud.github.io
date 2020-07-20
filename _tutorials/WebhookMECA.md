@@ -45,7 +45,7 @@ title: Git webhook
   
     <br>
     
- 5. create new service that's target to your container and select service name that's same as previous part. <br><br>
+ 5. create new service that's target to your container and select service name that's same as previous part. <br>
     `Service Name` : <"Your service name"> <br>
      select : `Label` <br>
     `Selector`: select container that's your create.<br>
@@ -59,7 +59,7 @@ title: Git webhook
  6. create new volume, type `Config Map`. <br>
     `Volume Name`: <"Your Volume name"> <br>
     `ConfigMap Name`: <"Your ConfigMap name"><br>
-    then click `Add New Config Map` <br>
+    then, click `Add New Config Map`. <br>
     ![volume3](/assets/git_webhook/voulme3.png)
     
     <br>
