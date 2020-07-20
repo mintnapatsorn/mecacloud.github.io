@@ -14,7 +14,6 @@ title: Git webhook
     <p align="left">
       <img src="/assets/git_webhook/statefull.png">
     </p>
-    <br>
  2. Fill `Stateful Set Name` and `Service Name`.
      <br><br>
      <img src="/assets/git_webhook/stateful2.png">
@@ -47,9 +46,9 @@ title: Git webhook
     <br>
     
  5. create new service that's target to your container and select service name that's same as previous part. <br><br>
-    `Service Name` : <"Your service name"> <br><br>
-     select : `Label` <br><br>
-    `Selector`: select container that's your create.
+    `Service Name` : <"Your service name"> <br>
+     select : `Label` <br>
+    `Selector`: select container that's your create.<br>
     `Ports`:<br>
     &nbsp; &nbsp; &nbsp; &nbsp;-`Name`: <"Name service port"><br>
     &nbsp; &nbsp; &nbsp; &nbsp;-`Service Port`: "80" <br><br>
@@ -60,12 +59,12 @@ title: Git webhook
  6. create new volume, type `Config Map`. <br>
     `Volume Name`: <"Your Volume name"> <br>
     `ConfigMap Name`: <"Your ConfigMap name"><br>
-    then click `Add New Config Map`
+    then click `Add New Config Map` <br>
     ![volume3](/assets/git_webhook/voulme3.png)
     
     <br>
     
- 7. Insert new ConfigMap data that's for change config file of nginx. 
+ 7. Insert new ConfigMap data that's for change config file of nginx. <br>
     `Key`: "default.conf" <br>
     `Content`: at below <br><br>
     ```
