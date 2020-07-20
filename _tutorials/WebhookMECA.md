@@ -12,7 +12,7 @@ title: Git webhook
 
  1. Firstly,create `new workload` and choose `Stateful Set` 
     <p align="left">
-      <img width="70%" height="50%" src="/assets/git_webhook/statefull.png">
+      <img src="/assets/git_webhook/statefull.png">
     </p>
     <!--![stateful_set](/assets/git_webhook/statefull.png)-->
     <br><br>
