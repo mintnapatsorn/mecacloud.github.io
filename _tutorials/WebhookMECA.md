@@ -41,7 +41,7 @@ title: Git webhook
     <br><br>
     ![container2](/assets/git_webhook/container2.png)
   
-    <br><br> 
+    <br>
     
  5. create new service that's target to your container. <br>
     select service name that's same as previous part. <br>
@@ -53,7 +53,38 @@ title: Git webhook
        `Service Port`: "80"
     ![service1](/assets/git_webhook/service1.png)
     
- 
-  
- 3.
+ 6. create new volume, type `Config Map`. <br>
+    `Volume Name`: <"Your Volume name"> <br>
+    `ConfigMap Name`: <"Your ConfigMap name"><br>
+    then click `Add New Config Map`
+    ![volume3](/assets/git_webhook/voulme3.png)
+ 7. Insert new ConfigMap data that's for change config file of nginx. 
+    `Key`: "default.conf" <br>
+    `Content`: at below <br>
+    ```
+    server {
+    listen       80;
+    server_name  localhost;
+
+    location / {
+        root   /App;
+        index  index.nginx-debian.html;
+    }
+    
+    error_page   500 502 503 504  /50x.html;
+    location = /50x.html {
+        root   /usr/local/openresty/nginx/html;
+    }
+
+    location /_hook {
+        default_type text/html;
+        content_by_lua_block {
+            os.execute("/myShellScript.sh")
+            ngx.say("<p>pull complete !!</p>")
+        } 
+    }
+    }
+    ```
+    ![volume4](/assets/git_webhook/voulme4.png)
+    ![volume6](/assets/git_webhook/volume6.png)
  4.
