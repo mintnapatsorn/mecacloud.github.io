@@ -92,8 +92,12 @@ title: Git webhook
     <br>
     
     ![volume4](/assets/git_webhook/voulme4.png)
- 8. 
-    ![volume6](/assets/git_webhook/volume6.png)
+ 8. Back to Stateful Set, Add new volume mounts for mounts default.conf from configMap to /etc/nginx/conf.d . <br>
+    `Volume Name`: <"select your configMap name"> <br>
+    `Mount Point`: "/etc/nginx/conf.d" <br>
+
+    ![volume6](/assets/git_webhook/volume6.png) <br>
+    
  4.
 
 
