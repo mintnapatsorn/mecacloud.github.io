@@ -11,7 +11,10 @@ title: Git webhook
 * ### How to start ?
 
  1. Firstly,create `new workload` and choose `Stateful Set` 
-    ![stateful_set](/assets/git_webhook/statefull.png)
+    <p align="left">
+      <img width="70%" height="50%" src="/assets/git_webhook/statefull.png">
+    </p>
+    <!--![stateful_set](/assets/git_webhook/statefull.png)-->
     <br><br>
  2. create new container that's have [webhook](https://hub.docker.com/r/maxoatzadn/webhook) image inside.
     <br>
