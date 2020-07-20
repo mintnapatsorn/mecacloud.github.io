@@ -39,7 +39,7 @@ title: Git webhook
      `Environment Variable`:<br>
      &nbsp; &nbsp; &nbsp; &nbsp;-`Key`: "LOCATION"<br>
      &nbsp; &nbsp; &nbsp; &nbsp;-`Value`: <"Your project on github"> <br>
-     &nbsp; &nbsp; &nbsp; &nbsp;(eg. https://github.com/toptapznt/nginx-test.git)
+     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;(eg. https://github.com/toptapznt/nginx-test.git)
     <br><br>
     ![container2](/assets/git_webhook/container2.png)
   
@@ -66,7 +66,7 @@ title: Git webhook
     
  7. Insert new ConfigMap data that's for change config file of nginx. <br>
     `Key`: "default.conf" <br>
-    `Content`: at below <br><br>
+    `Content`: at below <br>
     ```
     # default.conf
     server {
