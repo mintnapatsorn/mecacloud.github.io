@@ -92,15 +92,25 @@ title: Git webhook
     <br>
     
     ![volume4](/assets/git_webhook/voulme4.png)
+    
+    <br>
+    
  8. Back to Stateful Set, Add new volume mounts for mounts default.conf from configMap to /etc/nginx/conf.d . <br>
     `Volume Name`: <"select your configMap name"> <br>
     `Mount Point`: "/etc/nginx/conf.d" <br>
 
     ![volume6](/assets/git_webhook/volume6.png) <br>
     
- 4.
-
-
-<br>
-
+    <br>
+    
+ 9. Click **deploy**. <br>
+    ![deploy](/assets/git_webhook/deploy.png) <br>
+    <br>
+ 10. Now we got new workload that's contain webhook container inside pod.
+     <br>
+    ![workload](/assets/git_webhook/workload.png) <br><br>
+ 11. Scroll down to services and click link for view your web page has deploy.
+    <br>
+    ![deployment1](/assets/git_webhook/deployment1.png) <br><br>
+ 
 Good luck ... ✌️
