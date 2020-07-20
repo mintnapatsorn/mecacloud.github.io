@@ -18,7 +18,7 @@ title: Git webhook
  2. Fill `Stateful Set Name` and `Service Name`.
      <br><br>
      <img src="/assets/git_webhook/stateful2.png">
-     <br>
+     <br><br>
  3. create new container that's have [webhook](https://hub.docker.com/r/maxoatzadn/webhook) image inside.
     <br>
     `Container Name`: <"Your container name"> <br>
@@ -39,14 +39,14 @@ title: Git webhook
     <br>
      `Environment Variable`:<br>
      &nbsp; &nbsp; &nbsp; &nbsp;-`Key`: "LOCATION"<br>
-     &nbsp; &nbsp; &nbsp; &nbsp;-`Value`: <"Your project on github">
-        (eg. https://github.com/toptapznt/nginx-test.git)
+     &nbsp; &nbsp; &nbsp; &nbsp;-`Value`: <"Your project on github"> <br>
+     &nbsp; &nbsp; &nbsp; &nbsp;(eg. https://github.com/toptapznt/nginx-test.git)
     <br><br>
     ![container2](/assets/git_webhook/container2.png)
   
     <br>
     
- 5. create new service that's target to your container and select service name that's same as previous part. <br>
+ 5. create new service that's target to your container and select service name that's same as previous part. <br><br>
     `Service Name` : <"Your service name"> <br><br>
      select : `Label` <br><br>
     `Selector`: select container that's your create.
