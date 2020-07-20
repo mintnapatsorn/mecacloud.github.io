@@ -119,9 +119,9 @@ title: Git webhook
  1. Go to your project on ![GitHub](https://github.com/), then click **setting** select **webhook** menu and click **Add webhook**. <br><br>
  
    ![hook1](/assets/git_webhook/hook1.png) <br><br><br>
- 2. Change `Payload URL` to your domain name and append `/_hook`.
-    Select `Content type` to `application/json`. 
-    Select `Just the push event.` for git request to trigger your website and pull contents when every push event of your project. 
+ 2. Change `Payload URL` to your domain name and append `/_hook`.<br>
+    Select `Content type` to `application/json`.<br>
+    Select `Just the push event.` for git request to trigger your website and pull contents when every push event of your project. <br>
     Click **Add webhook**. <br><br>
    ![hook2](/assets/git_webhook/hook2.png) <br><br>
  3. Now, you complete to set webhook. <br><br>
