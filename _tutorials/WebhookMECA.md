@@ -68,7 +68,7 @@ title: Git webhook
     
  7. Insert new ConfigMap data that's for change config file of nginx. <br>
     `Key`: "default.conf" <br>
-    `Content`: at below <br>
+    `Content`: at below <br><br>
     ```
     # default.conf
     server {
