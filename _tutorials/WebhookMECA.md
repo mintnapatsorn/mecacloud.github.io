@@ -18,8 +18,6 @@ title: Git webhook
 
   2. fill Enviroment Varible with your [GitHub](https://github.com/) clone with Https for application's contents to container.
 
-  <br><br> 
-
   ![Create images1](/assets/webhook/webhook1.png)
 
   2.
