@@ -64,6 +64,7 @@ title: Git webhook
     `Key`: "default.conf" <br>
     `Content`: you can use default.conf file below. <br><br>
     > About root and index are root contents of your app (html) from [GitHub](https://github.com/) for nginx. 
+    
     ```
     # default.conf
     server {
