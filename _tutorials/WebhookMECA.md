@@ -10,7 +10,7 @@ title: Git webhook
 
 * ### How to start ?
 
- 1. Firstly,create `new workload` and choose `Stateful Set` 
+ 1. Firstly, create `new workload` and choose `Stateful Set` 
     <p align="left">
       <img src="/assets/git_webhook/statefull.png">
     </p>
