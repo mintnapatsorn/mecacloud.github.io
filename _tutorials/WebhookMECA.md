@@ -10,7 +10,7 @@ title: Git webhook
 
 * ### How to start ?
 
-1. Firstly, create new container that's have [webhook](https://hub.docker.com/r/maxoatzadn/webhook) image inside.
+ 1. Firstly, create new container that's have [webhook](https://hub.docker.com/r/maxoatzadn/webhook) image inside.
 
   ![Create images1](/assets/webhook/webhook2.png)
 
@@ -20,8 +20,6 @@ title: Git webhook
 
   ![Create images1](/assets/webhook/webhook1.png)
 
-  2.
+ 3.
 
-  3.
-
-  4.
+ 4.
