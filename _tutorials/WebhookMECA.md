@@ -170,7 +170,7 @@ title: Git webhook
       ![addNewVolume](/assets/apache/addNewVolume.png)
    4. Select Storage Class.
       `Storage Class`: "rbd-r2" <br>
-      ![chooseStorageClass](/assets/apache/chooseStorageClass.png)
+      ![storageClass](/assets/apache/storageClass.png)
    5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
       container. <br>
       <"Mount of webhook"> <br>
