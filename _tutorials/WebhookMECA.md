@@ -177,14 +177,39 @@ title: Git webhook
       ![mountWebhook](/assets/apache/mountWebhook.png) <br>
       <"Mount of web server"> <br>
       ![mountPhp](/assets/apache/mountPhp.png) <br>
-   6. 
-      
-   7.
-      
+   6. For next, lets open port 8000 of service. <br>
+      ![editServices](/assets/apache/editServices.png) <br>
+   7. Go to Config Map change code to below. <br>
+      ```
+        # default.conf
+        server {
+        listen       80;
+        server_name  localhost;
+
+        location / {
+           ~~root   /App;~~
+           ~~index  index.nginx-debian.html;~~
+           **proxy_pass http://localhost:8000;**
+        }
+
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   /usr/local/openresty/nginx/html;
+        }
+
+        location /_hook {
+            default_type text/html;
+            content_by_lua_block {
+                os.execute("/bin/webhook.sh")
+                ngx.say("<p>pull complete !!</p>")
+            } 
+          }
+        }
+      ```
    8.
       
    9.
-      ![editServices](/assets/apache/editServices.png)
+      
    10.
       add proxy
    11.
