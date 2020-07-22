@@ -155,31 +155,31 @@ title: Git webhook
    * ### Start new application container <br>
    In this tutorial will show how to deploy PHP-Apache that's connect with git webhook. <br><br>
    
-   1. Click **Edit** your workload. <br><br>
+   1. Click **Edit** your workload. <br><br><br>
       ![clickEdit](/assets/apache/clickEdit.png) <br><br>
    2. Click **Add New Container**. Then fill `Container Name`, `Image Name` and set port at 8000. <br>
       `Container Name`: <"your container name"> <br>
       `Image Name`: "maxoatzadn/php-server" (This's php-apache image running on port 8000)<br><br>
       > **Warning!**  Webhook base on nginx running on port 80 and care about web server port make sure it's not running on port 80 too. In this tutorial we use php:7.2-apache.
       
-      ![addContainerPhp](/assets/apache/addContainerPhp.png) <br>
+      ![addContainerPhp](/assets/apache/addContainerPhp.png) <br><br>
    3. create new volume, type `Persistent Volume Claim`. <br>
       `Volume Name`: <"Your PVC Volume name"> <br>
       `PVC Name`: <"Your PVC name"><br>
       then, click **Add New PVC**. <br><br>
-      ![addNewVolume](/assets/apache/addNewVolume.png)
+      ![addNewVolume](/assets/apache/addNewVolume.png) <br>
    4. Select Storage Class. <br>
       `Storage Class`: "rbd-r2" <br><br>
-      ![storageClass](/assets/apache/storageClass.png) <br>
+      ![storageClass](/assets/apache/storageClass.png) <br><br>
    5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
       container. <br><br>
       * **Mount of webhook** <br>
       ![mountWebhook](/assets/apache/mountWebhook.png) <br><br><br>
       * **Mount of web server** <br>
-      ![mountPhp](/assets/apache/mountPhp.png) <br>
+      ![mountPhp](/assets/apache/mountPhp.png) <br><br>
    6. For next, lets open port 8000 of service. <br><br>
-      ![editServices](/assets/apache/editServices.png) <br><br>
-   7. Go to **Config Map** change code to below. <br>
+      ![editServices](/assets/apache/editServices.png) <br><br><br>
+   7. Go to **Config Map** change code to below. <br><br>
        ```
         # default.conf
         server {
