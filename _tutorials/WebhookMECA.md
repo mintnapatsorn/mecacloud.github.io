@@ -173,11 +173,11 @@ title: Git webhook
       ![chooseStorageClass](/assets/apache/chooseStorageClass.png)
    5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
       container. <br>
-      <Mount of webhook> <br>
+      <"Mount of webhook"> <br>
       ![mountWebhook](/assets/apache/mountWebhook.png) <br>
-      <Mount of web server> <br>
+      <"Mount of web server"> <br>
       ![mountPhp](/assets/apache/mountPhp.png) <br>
-   6.
+   6. 
       
    7.
       
