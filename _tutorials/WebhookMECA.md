@@ -154,8 +154,7 @@ title: Git webhook
    <br><br>
    
    * ### Start new application container <br>
-   
-   In this tutorial will show how to deploy PHP-Apache that's connect with git webhook. <br>
+   In this tutorial will show how to deploy PHP-Apache that's connect with git webhook. <br><br>
    
    1. Click **Edit** your workload. <br><br>
       ![clickEdit](/assets/apache/clickEdit.png) <br><br>
@@ -176,7 +175,7 @@ title: Git webhook
    5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
       container. <br><br>
       * **Mount of webhook** <br>
-      ![mountWebhook](/assets/apache/mountWebhook.png) <br><br>
+      ![mountWebhook](/assets/apache/mountWebhook.png) <br><br><br>
       * **Mount of web server** <br>
       ![mountPhp](/assets/apache/mountPhp.png) <br>
    6. For next, lets open port 8000 of service. <br><br>
