@@ -158,23 +158,31 @@ title: Git webhook
    1. Click **Edit** your workload. <br>
       ![clickEdit](/assets/apache/clickEdit.png) <br>
    2. Click **Add New Container**. Then fill `Container Name`, `Image Name` and set port at 8000. <br>
-      `Volume Name`: <"select your configMap name"> <br>
-      `Mount Point`: "/etc/nginx/conf.d" <br>
+      `Container Name`: <"your container name"> <br>
+      `Image Name`: "maxoatzadn/php-server" (This's php-apache image running on port 8000)<br> 
       > **Warning!** Webhook base on nginx running on port 80 and care about web server port make sure it's not running on port 80 too. In this tutorial we use php:7.2-apache.
       
-      ![addContainer](/assets/apache/addContainer.png)
-   3.
       ![addContainerPhp](/assets/apache/addContainerPhp.png)
-   4.
+   3. create new volume, type `Persistent Volume Claim`. <br>
+      `Volume Name`: <"Your PVC Volume name"> <br>
+      `PVC Name`: <"Your PVC name"><br>
+      then, click **Add New PVC**. <br><br>
       ![addvolume](/assets/apache/addvolume.png)
-   5.
-      ![addNewVolume](/assets/apache/addNewVolume.png)
-   6.
+   4. Select Storage Class.
+      `Storage Class`: "rbd-r2" <br>
       ![chooseStorageClass](/assets/apache/chooseStorageClass.png)
+   5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
+      container. <br>
+      <Mount of webhook> <br>
+      ![mountWebhook](/assets/apache/mountWebhook.png) <br>
+      <Mount of web server> <br>
+      ![mountPhp](/assets/apache/mountPhp.png) <br>
+   6.
+      
    7.
-      ![mountWebhook](/assets/apache/mountWebhook.png)
+      
    8.
-      ![mountPhp](/assets/apache/mountPhp.png)
+      
    9.
       ![editServices](/assets/apache/editServices.png)
    10.
