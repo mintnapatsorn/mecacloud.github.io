@@ -155,10 +155,13 @@ title: Git webhook
    
    * ### Start new application container
    In this tutorial will show how to deploy PHP-Apache that's connect with git webhook.
-   
-   1. Click **Edit** your workload.
-      ![clickEdit](/assets/apache/clickEdit.png)
-   2. 
+   1. Click **Edit** your workload. <br>
+      ![clickEdit](/assets/apache/clickEdit.png) <br>
+   2. Click **Add New Container**. Then fill `Container Name`, `Image Name` and set port at 8000. <br>
+      `Volume Name`: <"select your configMap name"> <br>
+      `Mount Point`: "/etc/nginx/conf.d" <br>
+      > **Warning!** Webhook base on nginx running on port 80 and care about web server port make sure it's not running on port 80 too. In this tutorial we use php:7.2-apache.
+      <br>
       ![addContainer](/assets/apache/addContainer.png)
    3.
       ![addContainerPhp](/assets/apache/addContainerPhp.png)
