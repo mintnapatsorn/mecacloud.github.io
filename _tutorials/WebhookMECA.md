@@ -177,8 +177,12 @@ title: Git webhook
    5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
       container. <br><br>
       * **Mount of webhook** <br>
+      `Volume Name`: <"select your PVC name"> <br>
+      `Mount Point`: "/App" <br>
       ![mountWebhook](/assets/apache/mountWebhook.png) <br><br><br>
       * **Mount of web server** <br>
+      `Volume Name`: <"select your PVC name"> <br>
+      `Mount Point`: "/var/www/html" <br>
       ![mountPhp](/assets/apache/mountPhp.png) <br><br>
    6. For next, lets open port 8000 of service. <br><br>
       ![editServices](/assets/apache/editServices.png) <br><br><br>
