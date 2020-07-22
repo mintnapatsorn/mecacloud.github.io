@@ -167,7 +167,7 @@ title: Git webhook
       `Volume Name`: <"Your PVC Volume name"> <br>
       `PVC Name`: <"Your PVC name"><br>
       then, click **Add New PVC**. <br><br>
-      ![addNewVolume](/assets/apache/addNewVolume.png) <br>
+      ![addNewVolume](/assets/apache/addNewVolume.png) <br><br>
    4. Select Storage Class. <br>
       `Storage Class`: "rbd-r2" <br><br>
       ![storageClass](/assets/apache/storageClass.png) <br><br>
