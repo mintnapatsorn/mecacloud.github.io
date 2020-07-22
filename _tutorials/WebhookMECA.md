@@ -115,7 +115,6 @@ title: Git webhook
     ![deployment1](/assets/git_webhook/deployment1.png) <br><br>
  
  * ### Setting Git Webhook 
- <br>
  
  1. Go to your project on [GitHub](https://github.com/), then click **setting** select **webhook** menu and click **Add webhook**. <br><br>
     ![hook1](/assets/git_webhook/hook1.png) <br><br><br>
@@ -151,7 +150,7 @@ title: Git webhook
    
    ![hello](/assets/git_webhook/hello.png) <br><br>
    
-   <br><br>
+   <br>
    
    * ### Start new application container <br>
    In this tutorial will show how to deploy PHP-Apache that's connect with git webhook. <br><br>
