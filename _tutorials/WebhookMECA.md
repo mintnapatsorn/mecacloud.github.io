@@ -170,14 +170,14 @@ title: Git webhook
       `PVC Name`: <"Your PVC name"><br>
       then, click **Add New PVC**. <br><br>
       ![addNewVolume](/assets/apache/addNewVolume.png)
-   4. Select Storage Class.
+   4. Select Storage Class. <br>
       `Storage Class`: "rbd-r2" <br><br>
       ![storageClass](/assets/apache/storageClass.png) <br>
    5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
       container. <br><br>
-      ⋅⋅* **Mount of webhook** <br>
+      * **Mount of webhook** <br>
       ![mountWebhook](/assets/apache/mountWebhook.png) <br><br>
-      ⋅⋅* **Mount of web server** <br>
+      * **Mount of web server** <br>
       ![mountPhp](/assets/apache/mountPhp.png) <br>
    6. For next, lets open port 8000 of service. <br><br>
       ![editServices](/assets/apache/editServices.png) <br><br>
