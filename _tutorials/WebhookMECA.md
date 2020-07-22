@@ -210,7 +210,7 @@ title: Git webhook
       
    8. **Save Workload** <br>
    
-   9. Click link to view your website. <br><br>
+   9. Click link service to view your website. <br><br>
       ![clickLinkService](/assets/apache/clickLinkService.png) <br><br>
    10. push index.php to your [GitHub](https://github.com/). <br>
    
