@@ -214,23 +214,16 @@ title: Git webhook
    
    9. Click link to view your website. <br>
       ![clickLinkService](/assets/apache/clickLinkService.png) <br>
-   10. push index.php to your [GitHub](https://github.com/).
-   
+   10. push index.php to your [GitHub](https://github.com/). <br>
        ```
-
           # index.php
           <?php
           echo phpinfo();
-
-      ```
-      <br>
-      
-     
-      ![phpWeb](/assets/apache/phpWeb.png)
-      
-   11.
-            
-   12.
+          ?>
+       ```
+       <br>
+       ![phpWeb](/assets/apache/phpWeb.png) <br>
+           
    
    
    Reference : https://hub.docker.com/r/maxoatzadn/webhook
