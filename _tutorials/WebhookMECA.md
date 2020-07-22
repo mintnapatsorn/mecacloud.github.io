@@ -161,7 +161,7 @@ title: Git webhook
       `Volume Name`: <"select your configMap name"> <br>
       `Mount Point`: "/etc/nginx/conf.d" <br>
       > **Warning!** Webhook base on nginx running on port 80 and care about web server port make sure it's not running on port 80 too. In this tutorial we use php:7.2-apache.
-      <br>
+      
       ![addContainer](/assets/apache/addContainer.png)
    3.
       ![addContainerPhp](/assets/apache/addContainerPhp.png)
