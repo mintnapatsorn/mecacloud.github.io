@@ -187,9 +187,10 @@ title: Git webhook
         server_name  localhost;
 
         location / {
-           ~~root   /App;~~
-           ~~index  index.nginx-debian.html;~~
-           **proxy_pass http://localhost:8000;**
+           # root   /App;
+           # index  index.nginx-debian.html;
+           # add proxy_pass to web server that's running at port 8000.
+           proxy_pass http://localhost:8000;
         }
 
         error_page   500 502 503 504  /50x.html;
@@ -206,20 +207,22 @@ title: Git webhook
           }
         }
       ```
-   8.
       
+      <br>
+      
+   8. **Save Workload** <br>
+   
    9.
+      ![clickLinkService](/assets/apache/clickLinkService.png)
       
    10.
-      add proxy
-   11.
-      save      
-   12.
-      ![clickLinkService](/assets/apache/clickLinkService.png)
-   13.
       php code
+      
       ![phpWeb](/assets/apache/phpWeb.png)
-   14.
+      
+   11.
+            
+   12.
    
    
    Reference : https://hub.docker.com/r/maxoatzadn/webhook
