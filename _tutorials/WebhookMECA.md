@@ -151,36 +151,38 @@ title: Git webhook
    
    ![hello](/assets/git_webhook/hello.png) <br><br>
    
-   <br> 
+   <br><br>
    
-   * ### Start new application container
-   In this tutorial will show how to deploy PHP-Apache that's connect with git webhook.
-   1. Click **Edit** your workload. <br>
-      ![clickEdit](/assets/apache/clickEdit.png) <br>
+   * ### Start new application container <br>
+   
+   In this tutorial will show how to deploy PHP-Apache that's connect with git webhook. <br>
+   
+   1. Click **Edit** your workload. <br><br>
+      ![clickEdit](/assets/apache/clickEdit.png) <br><br>
    2. Click **Add New Container**. Then fill `Container Name`, `Image Name` and set port at 8000. <br>
       `Container Name`: <"your container name"> <br>
-      `Image Name`: "maxoatzadn/php-server" (This's php-apache image running on port 8000)<br> 
+      `Image Name`: "maxoatzadn/php-server" (This's php-apache image running on port 8000)<br><br>
       > **Warning!** Webhook base on nginx running on port 80 and care about web server port make sure it's not running on port 80 too. In this tutorial we use php:7.2-apache.
       
-      ![addContainerPhp](/assets/apache/addContainerPhp.png)
+      ![addContainerPhp](/assets/apache/addContainerPhp.png) <br>
    3. create new volume, type `Persistent Volume Claim`. <br>
       `Volume Name`: <"Your PVC Volume name"> <br>
       `PVC Name`: <"Your PVC name"><br>
       then, click **Add New PVC**. <br><br>
       ![addNewVolume](/assets/apache/addNewVolume.png)
    4. Select Storage Class.
-      `Storage Class`: "rbd-r2" <br>
-      ![storageClass](/assets/apache/storageClass.png)
+      `Storage Class`: "rbd-r2" <br><br>
+      ![storageClass](/assets/apache/storageClass.png) <br>
    5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
-      container. <br>
-      <"Mount of webhook"> <br>
-      ![mountWebhook](/assets/apache/mountWebhook.png) <br>
-      <"Mount of web server"> <br>
+      container. <br><br>
+      **Mount of webhook** <br>
+      ![mountWebhook](/assets/apache/mountWebhook.png) <br><br>
+      **Mount of web server** <br>
       ![mountPhp](/assets/apache/mountPhp.png) <br>
-   6. For next, lets open port 8000 of service. <br>
-      ![editServices](/assets/apache/editServices.png) <br>
-   7. Go to Config Map change code to below. <br>
-      ```
+   6. For next, lets open port 8000 of service. <br><br>
+      ![editServices](/assets/apache/editServices.png) <br><br>
+   7. Go to **Config Map** change code to below. <br>
+       ```
         # default.conf
         server {
         listen       80;
@@ -207,27 +209,23 @@ title: Git webhook
           }
         }
       ```
-      
-      <br>
-      
    8. **Save Workload** <br>
    
-   9. Click link to view your website. <br>
-      ![clickLinkService](/assets/apache/clickLinkService.png) <br>
+   9. Click link to view your website. <br><br>
+      ![clickLinkService](/assets/apache/clickLinkService.png) <br><br>
    10. push index.php to your [GitHub](https://github.com/). <br>
-       ```
+   
+        ```
           # index.php
           <?php
           echo phpinfo();
           ?>
        ```
-       <br>
-       
+      
        Now, you can see content of your website.
        
-       ![phpWeb](/assets/apache/phpWeb.png) <br>
-           
-   
+       ![phpWeb](/assets/apache/phpWeb.png) <br><br>
+
    
    Reference : https://hub.docker.com/r/maxoatzadn/webhook
    <br>
