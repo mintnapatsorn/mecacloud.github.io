@@ -1,14 +1,16 @@
 ---
 layout: tutorial
-title: Git webhook
+title: Deploy website via Github webhook
 ---
-## Getting started git Webhook
+## Getting started with Github webhook
 
-* ### What's git Webhook 💻
+* ### Introduction 💻
 
-  When you push your projects to git repository but the deployment that's did't change content inside the conatainer. You can use this tutorial for resolve its.  
+  Git is your best friend when you want to keep track of your source code. Github provides a git repository for those source code which allows you to store, manage, and collaborate within your team. Github can send a hook to any HTTP endpoint when certain events occur.  For example when you push a new version into the repository, Github will send a notification to your endpoint signaling your deployment to pull the source code again. 
 
-* ### How to start ?
+  We have created a docker image which acts as a reverse proxy to your website and writen a webhook endpoint which can accept hooks from Github. This image will keep your website content aligned with the version in git.
+ 
+* ### How to start your static website ?
 
  1. Firstly, create `new workload` and choose `Stateful Set` 
     <p align="left">
@@ -18,7 +20,7 @@ title: Git webhook
      <br><br>
      <img src="/assets/git_webhook/stateful2.png">
      <br><br>
- 3. create new container that's have [webhook](https://hub.docker.com/r/maxoatzadn/webhook) image inside.
+ 3. Create new container that's have [webhook](https://hub.docker.com/r/maxoatzadn/webhook) image inside.
     <br>
     `Container Name`: <"Your container name"> <br>
     `Image Name`: "maxoatzadn/webhook" <br>
@@ -32,7 +34,7 @@ title: Git webhook
     
     <br>
     
- 4. fill Enviroment Varible with your [GitHub](https://github.com/) clone with Https for application's contents to container.
+ 4. Fill Enviroment Varible with your [GitHub](https://github.com/) source code repository for website's content which will be cloned into the container.
     <br>
      `Environment Variable`:<br>
      &nbsp; &nbsp; &nbsp; &nbsp;-`Key`: "LOCATION"<br>
@@ -43,7 +45,7 @@ title: Git webhook
   
     <br>
     
- 5. create new service that's target to your container and select service name that's same as previous part. <br>
+ 5. Create new service that's target to your container and select service name that's same as previous part. <br>
     `Service Name` : <"Your service name"> <br>
      select : `Label` <br>
     `Selector`: select container that's your create.<br>
@@ -54,16 +56,16 @@ title: Git webhook
     
     <br>
     
- 6. create new volume, type `Config Map`. <br>
+ 6. Create new volume, type `Config Map`. <br>
     `Volume Name`: <"Your Volume name"> <br>
     `ConfigMap Name`: <"Your ConfigMap name"><br>
     then, click **Add New Config Map**. <br><br>
     ![volume3](/assets/git_webhook/voulme3.png)
         
- 7. Insert new ConfigMap data that's for change config file of nginx. <br>
+ 7. Insert new ConfigMap data that's for nginx config file. <br>
     `Key`: "default.conf" <br>
-    `Content`: you can use default.conf file below. <br><br>
-    > About root and index are root contents of your app (html) from [GitHub](https://github.com/) for nginx. 
+    `Content`: you can use content of default.conf file below. <br><br>
+    > Given `root` and `index` are root contents of your app (html) from [GitHub](https://github.com/) for nginx. 
     
     ```
     # default.conf
@@ -96,7 +98,7 @@ title: Git webhook
     
     <br>
     
- 8. Back to Stateful Set, Add new volume mounts for mounts default.conf from configMap to /etc/nginx/conf.d . <br>
+ 8. Back to Stateful Set, Add new volume mounts for mounts default.conf from configMap to `/etc/nginx/conf.d` . <br>
     `Volume Name`: <"select your configMap name"> <br>
     `Mount Point`: "/etc/nginx/conf.d" <br>
 
@@ -118,7 +120,7 @@ title: Git webhook
  
  1. Go to your project on [GitHub](https://github.com/), then click **setting** select **webhook** menu and click **Add webhook**. <br><br>
     ![hook1](/assets/git_webhook/hook1.png) <br><br><br>
- 2. Change `Payload URL` to your domain name and append `/_hook`.<br>
+ 2. Change `Payload URL` to your domain name and append with `/_hook`.<br>
     Select `Content type` to `application/json`.<br>
     Select `Just the push event.` for git request to trigger your website and pull contents when every push event of your project. <br>
     Click **Add webhook**. <br><br>
@@ -152,22 +154,22 @@ title: Git webhook
    
    <br>
    
-   * ### Start new application container <br>
+   * ### Start new PHP Web Application container <br>
    In this tutorial will show how to deploy PHP-Apache that's connect with git webhook. <br><br>
    
    1. Click **Edit** your workload. <br><br>
       ![clickEdit](/assets/apache/clickEdit.png) <br><br><br>
-   2. Click **Add New Container**. Then fill `Container Name`, `Image Name` and set port at 8000. <br>
+   2. Add your PHP Application image by click on **Add New Container**. Then fill `Container Name`, `Image Name` and set port of your application will listen to in this tutorial will be 8000. <br>
       `Container Name`: <"your container name"> <br>
       `Image Name`: "maxoatzadn/php-server" <br>
       (This's php-apache image running on port 8000)<br><br>
-      > **Warning!**   Webhook base on nginx running on port 80 and care about web server port make sure it's not running on port 80 too. In this tutorial we use php:7.2-apache.
+      > **Warning!**   Webhook base on nginx running on port 80 and care about web server port make sure your application is not running on port 80 too. In this tutorial we use modify image from php:7.2-apache.
       
       <br>
       
       ![addContainerPhp](/assets/apache/addContainerPhp.png) <br><br>
       
-   3. create new volume, type `Persistent Volume Claim`. <br>
+   3. Create new volume, type `Persistent Volume Claim`. which will hold your source code <br>
       `Volume Name`: <"Your PVC Volume name"> <br>
       `PVC Name`: <"Your PVC name"><br>
       then, click **Add New PVC**. <br><br>
@@ -175,8 +177,7 @@ title: Git webhook
    4. Select Storage Class. <br>
       `Storage Class`: "rbd-r2" <br><br>
       ![storageClass](/assets/apache/storageClass.png) <br><br><br>
-   5. Back to Stateful Set and click **Add New Volume Mount**. To create volume of webhook container and web server container (php). For mount volume content file between two
-      container. <br><br>
+   5. We will make previously created PVC available on both webhook container and php application container. In Stateful Set menu, click **Add New Volume Mount** on each container to create a mount point of webhook container and web server container (php). Same volume content will available between two container. <br><br>
       * **Mount of webhook** <br>
       `Volume Name`: <"select your PVC name"> <br>
       `Mount Point`: "/App" <br>
