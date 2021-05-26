@@ -4,7 +4,7 @@ title: Basic Deploy Website Application in MECA
 ---
 ## Build basic website application in MECA with one service
 
-When you build or deploy website in your computer, you can only the once who can access the file. When you upload the file to docker hub ,anybody can be access your local file that will be unsecure for your computer. MECAs will helps to deploy website in namespace and have its own memory,resource,CPU and RAM. You can build any kind of website by using container or images in docker hub that suited to your website or idea then deploy it in MECA. You can also deploy more than one images at a time, to make website application fully successful.
+When you build or deploy website in your computer, you cahttps://www.elastic.co/guide/en/siem/guide/7.7/detection-engine-overview.html#detections-permissionsn only the once who can access the file. When you upload the file to docker hub ,anybody can be access your local file that will be unsecure for your computer. MECAs will helps to deploy website in namespace and have its own memory,resource,CPU and RAM. You can build any kind of website by using container or images in docker hub that suited to your website or idea then deploy it in MECA. You can also deploy more than one images at a time, to make website application fully successful.
 
 - **For this project we will shown the basic jekyll site**
 
