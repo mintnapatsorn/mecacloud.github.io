@@ -1,0 +1,184 @@
+{
+  "name": "NSTDA",
+  "panelIcons": [
+    {
+      "id": "demo",
+      "name": "demo",
+      "iconURL": {
+        "method": "GET",
+        "url": "https://bulma.io/images/placeholders/32x32.png"
+      },
+      "tooltip": "Demo icon",
+      "markers": [
+        {
+          "id": "marker.demo",
+          "name": "Demo marker",
+          "iconURL": {
+            "method": "GET",
+            "url": "https://bulma.io/images/placeholders/32x32.png"
+          },
+          "hoverContent": {
+            "title": "Demo",
+            "headContent": {
+              "dataURL": {
+                "method": "GET",
+                "url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
+              },
+              "template": "{{main.temp}}/{{main.humidity}}%"
+            },
+            "bodyContent": {
+              "embeddedURL": {
+                "method": "GET",
+                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/7adfa750-4c81-11e8-b3d7-01146121b73d?embed=true&_g=(filters:!(),refreshInterval:(pause:!f,value:900000),time:(from:now-24h,to:now))&_a=(description:'Analyze%20mock%20flight%20data%20for%20ES-Air,%20Logstash%20Airways,%20Kibana%20Airlines%20and%20JetBeats',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%5BFlights%5D%20Global%20Flight%20Dashboard',viewMode:view)"
+              }
+            }
+          },
+          "position": {
+            "lat": -25.363,
+            "lng": 131.044
+          }
+        }
+      ],
+      "shapes": [
+        {
+          "id": "polyline.demo",
+          "name": "Demo polyline",
+          "type": "Polyline",
+          "polylineOption": {
+            "path": [
+              {
+                "lat": 37.772,
+                "lng": -122.214
+              },
+              {
+                "lat": 21.291,
+                "lng": -157.821
+              },
+              {
+                "lat": -18.142,
+                "lng": 178.431
+              },
+              {
+                "lat": -27.467,
+                "lng": 153.027
+              },
+            ],
+            "geodesic": false,
+            "strokeColor": "#FF0000",
+            "strokeOpacity": 0.8,
+            "strokeWeight": 2,
+            "visible": true,
+            "zIndex": 1
+          }
+        },
+        {
+          "id": "polygon.demo",
+          "name": "Demo polygon",
+          "type": "Polygon",
+          "polylineOption": {
+            "path": [
+              {
+                "lat": 37.772,
+                "lng": -122.214
+              },
+              {
+                "lat": 21.291,
+                "lng": -157.821
+              },
+              {
+                "lat": -18.142,
+                "lng": 178.431
+              },
+              {
+                "lat": -27.467,
+                "lng": 153.027
+              },
+            ],
+            "geodesic": false,
+            "strokeColor": "#FF0000",
+            "strokeOpacity": 0.8,
+            "strokeWeight": 2,
+            "fillColor": "#FF0000",
+            "fillOpacity": 0.35,
+          }
+        },
+        {
+          "id": "rectangle.demo",
+          "name": "Demo rectangle",
+          "type": "Rectangle",
+          "polylineOption": {
+            "strokeColor": "#FF0000",
+            "strokeOpacity": 0.8,
+            "strokeWeight": 2,
+            "fillColor": "#FF0000",
+            "fillOpacity": 0.35,
+            "bounds": {
+              "north": 33.685,
+              "south": 33.671,
+              "east": -116.234,
+              "west": -116.251,
+            }
+          }
+        },
+        {
+          "id": "circle.demo",
+          "name": "Demo circle",
+          "type": "Circle",
+          "polylineOption": {
+            "strokeColor": "#FF0000",
+            "strokeOpacity": 0.8,
+            "strokeWeight": 2,
+            "fillColor": "#FF0000",
+            "fillOpacity": 0.35,
+            "center": {
+              "lat": 49.25,
+              "lng": -123.1
+            },
+            "radius": 100
+          }
+        }
+      ],
+      "hoverContent": {
+        "title": "Demo",
+        "headContent": {
+          "dataURL": {
+            "method": "GET",
+            "url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
+          },
+          "template": "{{main.temp}}/{{main.humidity}}%"
+        },
+        "bodyContent": {
+          "embeddedURL": {
+            "method": "GET",
+            "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/7adfa750-4c81-11e8-b3d7-01146121b73d?embed=true&_g=(filters:!(),refreshInterval:(pause:!f,value:900000),time:(from:now-24h,to:now))&_a=(description:'Analyze%20mock%20flight%20data%20for%20ES-Air,%20Logstash%20Airways,%20Kibana%20Airlines%20and%20JetBeats',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%5BFlights%5D%20Global%20Flight%20Dashboard',viewMode:view)"
+          }
+        }
+      }
+    }
+  ],
+  "customPallets": [
+    {
+      "name": "Weather",
+      "iconURL": {
+        "method": "GET",
+        "url": "https://bulma.io/images/placeholders/32x32.png"
+      },
+      "dataURL": {
+        "method": "GET",
+        "url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
+      },
+      "template": "{{main.temp}}/{{main.humidity}}%"
+    }
+  ],
+  "mapOption": {
+    "center": {
+      "lat": -34.397,
+      "lng": 150.644
+    },
+    "zoom": 8
+  },
+  "logoURL": {
+    "method": "GET",
+    "url": "https://bulma.io/images/placeholders/32x32.png"
+  }
+}
