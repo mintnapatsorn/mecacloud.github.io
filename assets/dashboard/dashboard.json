@@ -187,7 +187,16 @@
             "iconURL": {
                 "method": "GET",
                 "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/cardiogram.png"
-       		 }
+       		 },
+	    "markers": [
+                {
+                    "id": "marker.education",
+                    "name": "education marker",
+                    "iconURL": {
+                        "method": "GET",
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/map-location.png"
+                    }
+		}]
 	},
 	{
             "id": "fire",
@@ -203,7 +212,16 @@
             "iconURL": {
                 "method": "GET",
                 "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/badge.png"
-       		 }
+       		 },
+	    "markers": [
+                {
+                    "id": "marker.education",
+                    "name": "education marker",
+                    "iconURL": {
+                        "method": "GET",
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/police-badge.png"
+                    }
+		}]
 	},
 	{
             "id": "education",
@@ -218,7 +236,7 @@
                     "name": "education marker",
                     "iconURL": {
                         "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/school.png"
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location.png"
                     }
 		}]
 	},
@@ -228,7 +246,16 @@
             "iconURL": {
                 "method": "GET",
                 "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/delivery-truck.png"
-       		 }
+       		 },
+	    "markers": [
+                {
+                    "id": "marker.education",
+                    "name": "education marker",
+                    "iconURL": {
+                        "method": "GET",
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
+                    }
+		}]
 	},
 	{
             "id": "park",
@@ -236,7 +263,16 @@
             "iconURL": {
                 "method": "GET",
                 "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/park.png"
-       		 }
+       		 },
+	    "markers": [
+                {
+                    "id": "marker.park",
+                    "name": "park marker",
+                    "iconURL": {
+                        "method": "GET",
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/forest.png"
+                    }
+		}]
 	}],
 	"customPallets": [{
 		"name": "Weather",
