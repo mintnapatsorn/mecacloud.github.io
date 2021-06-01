@@ -214,11 +214,11 @@
        		 },
 	     "markers": [
                 {
-                    "id": "marker.demo",
-                    "name": "Demo marker",
+                    "id": "marker.education",
+                    "name": "education marker",
                     "iconURL": {
                         "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/school.png"
                     }]
 	},
 	{
