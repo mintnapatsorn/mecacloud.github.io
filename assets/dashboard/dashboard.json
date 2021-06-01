@@ -1,8 +1,8 @@
 {
 	"name": "NSTDA",
 	"panelIcons": [{
-		"id": "demo",
-		"name": "demo",
+		"id": "road",
+		"name": "road",
 		"iconURL": {
 			"method": "GET",
 			"url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/road.png"
@@ -148,6 +148,86 @@
 				}
 			}
 		}
+	},
+	{
+            "id": "zone",
+            "name": "zone",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/location-pointer.png"
+       		 }
+	},
+	{
+            "id": "electricity",
+            "name": "electricity",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/light.png"
+       		 }
+	},     
+	{
+            "id": "water",
+            "name": "water",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/drop.png"
+       		 }
+	},
+	{
+            "id": "waste",
+            "name": "waste",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/garbage.png"
+       		 }
+	},
+	{
+            "id": "health",
+            "name": "health",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/cardiogram.png"
+       		 }
+	},
+	{
+            "id": "fire",
+            "name": "fire",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/fire.png"
+       		 }
+	},
+	{
+            "id": "police",
+            "name": "police",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/badge.png"
+       		 }
+	},
+	{
+            "id": "education",
+            "name": "education",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/mortarboard.png"
+       		 }
+	},
+	{
+            "id": "transport",
+            "name": "transport",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/delivery-truck.png"
+       		 }
+	},
+	{
+            "id": "park",
+            "name": "park",
+            "iconURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/park.png"
+       		 }
 	}],
 	"customPallets": [{
 		"name": "Weather",
