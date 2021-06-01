@@ -5,7 +5,7 @@
 		"name": "demo",
 		"iconURL": {
 			"method": "GET",
-			"url": "https://docs.meca.in.th/assets/dashboard/road.png"
+			"url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/road.png"
 		},
 		"tooltip": "Demo icon",
 		"markers": [{
@@ -13,7 +13,7 @@
 			"name": "Demo marker",
 			"iconURL": {
 				"method": "GET",
-				"url": "https://bulma.io/images/placeholders/32x32.png"
+				"url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
 			},
 			"hoverContent": {
 				"title": "Demo",
