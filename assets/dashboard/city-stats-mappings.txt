@@ -1,0 +1,14 @@
+PUT /city-stats
+{
+  "mappings": {
+    "properties": {
+      "dataID": { "type": "keyword" },
+      "of": { "type": "keyword" },
+      "item": {"type": "text"},
+      "at": {"type": "date"},
+      "value": {"type": "double"},
+      "unit": {"type": "keyword"},
+      "tags": {"type": "text"}
+    }
+  }
+}
