@@ -163,7 +163,16 @@
             "iconURL": {
                 "method": "GET",
                 "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/light.png"
-       		 }
+       		 },
+	    "markers": [
+                {
+                    "id": "marker.electricity",
+                    "name": "electricity marker",
+                    "iconURL": {
+                        "method": "GET",
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/lightning.png"
+                    }
+		}]
 	},     
 	{
             "id": "water",
@@ -171,7 +180,16 @@
             "iconURL": {
                 "method": "GET",
                 "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/drop.png"
-       		 }
+       		 },
+	    "markers": [
+                {
+                    "id": "marker.water",
+                    "name": "water marker",
+                    "iconURL": {
+                        "method": "GET",
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/drop.png"
+                    }
+		}]
 	},
 	{
             "id": "waste",
@@ -179,7 +197,16 @@
             "iconURL": {
                 "method": "GET",
                 "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/garbage.png"
-       		 }
+       		 },
+	    "markers": [
+                {
+                    "id": "marker.waste",
+                    "name": "waste marker",
+                    "iconURL": {
+                        "method": "GET",
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/recycling-bin.png"
+                    }
+		}]
 	},
 	{
             "id": "health",
@@ -190,8 +217,8 @@
        		 },
 	    "markers": [
                 {
-                    "id": "marker.education",
-                    "name": "education marker",
+                    "id": "marker.health",
+                    "name": "health marker",
                     "iconURL": {
                         "method": "GET",
                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/map-location.png"
@@ -215,11 +242,11 @@
        		 },
 	    "markers": [
                 {
-                    "id": "marker.education",
-                    "name": "education marker",
+                    "id": "marker.police",
+                    "name": "police marker",
                     "iconURL": {
                         "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/police-badge.png"
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/cctv.png"
                     }
 		}]
 	},
@@ -249,8 +276,8 @@
        		 },
 	    "markers": [
                 {
-                    "id": "marker.education",
-                    "name": "education marker",
+                    "id": "marker.transport",
+                    "name": "transport marker",
                     "iconURL": {
                         "method": "GET",
                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
