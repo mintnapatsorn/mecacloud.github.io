@@ -206,6 +206,14 @@
                         "method": "GET",
                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/recycling-bin.png"
                     }
+		},
+	        {
+                    "id": "marker.waste2",
+                    "name": "waste2 marker",
+                    "iconURL": {
+                        "method": "GET",
+                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/recycling.png"
+                    }
 		}]
 	},
 	{
