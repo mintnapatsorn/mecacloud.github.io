@@ -8,128 +8,142 @@
 			"url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/road.png"
 		},
 		"tooltip": "Demo icon",
-		"markers": [{
-			"id": "marker.demo",
-			"name": "Demo marker",
-			"iconURL": {
-				"method": "GET",
-				"url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+		"mapOption": {
+			"center": {
+				"lat": -34.397,
+				"lng": 150.644
 			},
-			"hoverContent": {
-				"title": "Demo",
-				"headContent": {
-					"dataURL": {
+			"zoom": 8
+		},
+		"defaultLayerIndex": 0,
+		"layers": [
+			{
+				"id": "example",
+				"name": "ตัวอย่าง",
+				"markers": [{
+					"id": "marker.demo",
+					"name": "Demo marker",
+					"iconURL": {
 						"method": "GET",
-						"url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
+						"url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
 					},
-					"template": "{{main.temp}}/{{main.humidity}}%"
-				},
-				"bodyContent": {
-					"embeddedURL": {
-						"method": "GET",
-						"url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)&hide-filter-bar=true"
-					}
-				}
-			},
-			"position": {
-				"lat": -25.363,
-				"lng": 131.044
-			}
-		}],
-		"shapes": [{
-				"id": "polyline.demo",
-				"name": "Demo polyline",
-				"type": "Polyline",
-				"polylineOption": {
-					"path": [{
-							"lat": 37.772,
-							"lng": -122.214
+					"hoverContent": {
+						"title": "Demo",
+						"headContent": {
+							"dataURL": {
+								"method": "GET",
+								"url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
+							},
+							"template": "{{main.temp}}/{{main.humidity}}%"
 						},
-						{
-							"lat": 21.291,
-							"lng": -157.821
-						},
-						{
-							"lat": -18.142,
-							"lng": 178.431
-						},
-						{
-							"lat": -27.467,
-							"lng": 153.027
+						"bodyContent": {
+							"embeddedURL": {
+								"method": "GET",
+								"url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)&hide-filter-bar=true"
+							}
 						}
-					],
-					"geodesic": false,
-					"strokeColor": "#FF0000",
-					"strokeOpacity": 0.8,
-					"strokeWeight": 2,
-					"visible": true,
-					"zIndex": 1
-				}
-			},
-			{
-				"id": "polygon.demo",
-				"name": "Demo polygon",
-				"type": "Polygon",
-				"polylineOption": {
-					"path": [{
-							"lat": 37.772,
-							"lng": -122.214
-						},
-						{
-							"lat": 21.291,
-							"lng": -157.821
-						},
-						{
-							"lat": -18.142,
-							"lng": 178.431
-						},
-						{
-							"lat": -27.467,
-							"lng": 153.027
-						}
-					],
-					"geodesic": false,
-					"strokeColor": "#FF0000",
-					"strokeOpacity": 0.8,
-					"strokeWeight": 2,
-					"fillColor": "#FF0000",
-					"fillOpacity": 0.35
-				}
-			},
-			{
-				"id": "rectangle.demo",
-				"name": "Demo rectangle",
-				"type": "Rectangle",
-				"polylineOption": {
-					"strokeColor": "#FF0000",
-					"strokeOpacity": 0.8,
-					"strokeWeight": 2,
-					"fillColor": "#FF0000",
-					"fillOpacity": 0.35,
-					"bounds": {
-						"north": 33.685,
-						"south": 33.671,
-						"east": -116.234,
-						"west": -116.251
-					}
-				}
-			},
-			{
-				"id": "circle.demo",
-				"name": "Demo circle",
-				"type": "Circle",
-				"polylineOption": {
-					"strokeColor": "#FF0000",
-					"strokeOpacity": 0.8,
-					"strokeWeight": 2,
-					"fillColor": "#FF0000",
-					"fillOpacity": 0.35,
-					"center": {
-						"lat": 49.25,
-						"lng": -123.1
 					},
-					"radius": 100
-				}
+					"position": {
+						"lat": -25.363,
+						"lng": 131.044
+					}
+				}],
+				"shapes": [{
+						"id": "polyline.demo",
+						"name": "Demo polyline",
+						"type": "Polyline",
+						"polylineOption": {
+							"path": [{
+									"lat": 37.772,
+									"lng": -122.214
+								},
+								{
+									"lat": 21.291,
+									"lng": -157.821
+								},
+								{
+									"lat": -18.142,
+									"lng": 178.431
+								},
+								{
+									"lat": -27.467,
+									"lng": 153.027
+								}
+							],
+							"geodesic": false,
+							"strokeColor": "#FF0000",
+							"strokeOpacity": 0.8,
+							"strokeWeight": 2,
+							"visible": true,
+							"zIndex": 1
+						}
+					},
+					{
+						"id": "polygon.demo",
+						"name": "Demo polygon",
+						"type": "Polygon",
+						"polylineOption": {
+							"path": [{
+									"lat": 37.772,
+									"lng": -122.214
+								},
+								{
+									"lat": 21.291,
+									"lng": -157.821
+								},
+								{
+									"lat": -18.142,
+									"lng": 178.431
+								},
+								{
+									"lat": -27.467,
+									"lng": 153.027
+								}
+							],
+							"geodesic": false,
+							"strokeColor": "#FF0000",
+							"strokeOpacity": 0.8,
+							"strokeWeight": 2,
+							"fillColor": "#FF0000",
+							"fillOpacity": 0.35
+						}
+					},
+					{
+						"id": "rectangle.demo",
+						"name": "Demo rectangle",
+						"type": "Rectangle",
+						"polylineOption": {
+							"strokeColor": "#FF0000",
+							"strokeOpacity": 0.8,
+							"strokeWeight": 2,
+							"fillColor": "#FF0000",
+							"fillOpacity": 0.35,
+							"bounds": {
+								"north": 33.685,
+								"south": 33.671,
+								"east": -116.234,
+								"west": -116.251
+							}
+						}
+					},
+					{
+						"id": "circle.demo",
+						"name": "Demo circle",
+						"type": "Circle",
+						"polylineOption": {
+							"strokeColor": "#FF0000",
+							"strokeOpacity": 0.8,
+							"strokeWeight": 2,
+							"fillColor": "#FF0000",
+							"fillOpacity": 0.35,
+							"center": {
+								"lat": 49.25,
+								"lng": -123.1
+							},
+							"radius": 100
+						}
+					}
+				],
 			}
 		],
 		"hoverContent": {
@@ -148,175 +162,6 @@
 				}
 			}
 		}
-	},
-	{
-            "id": "zone",
-            "name": "zone",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/location-pointer.png"
-       		 }
-	},
-	{
-            "id": "electricity",
-            "name": "electricity",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/light.png"
-       		 },
-	    "markers": [
-                {
-                    "id": "marker.electricity",
-                    "name": "electricity marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/lightning.png"
-                    }
-		}]
-	},     
-	{
-            "id": "water",
-            "name": "water",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/drop.png"
-       		 },
-	    "markers": [
-                {
-                    "id": "marker.water",
-                    "name": "water marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/drop.png"
-                    }
-		}]
-	},
-	{
-            "id": "waste",
-            "name": "waste",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/garbage.png"
-       		 },
-	    "markers": [
-                {
-                    "id": "marker.waste",
-                    "name": "waste marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/recycling-bin.png"
-                    }
-		}]
-	},
-	{
-            "id": "consumer",
-            "name": "consumer",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/recycling.png"
-       		 },
-	    "markers": [
-	        {
-                    "id": "marker.consumer",
-                    "name": "consumer marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage.png"
-                    }
-		}]
-	},
-	{
-            "id": "health",
-            "name": "health",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/cardiogram.png"
-       		 },
-	    "markers": [
-                {
-                    "id": "marker.health",
-                    "name": "health marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/map-location.png"
-                    }
-		}]
-	},
-	{
-            "id": "fire",
-            "name": "fire",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/fire.png"
-       		 }
-	},
-	{
-            "id": "police",
-            "name": "police",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/badge.png"
-       		 },
-	    "markers": [
-                {
-                    "id": "marker.police",
-                    "name": "police marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/cctv.png"
-                    }
-		}]
-	},
-	{
-            "id": "education",
-            "name": "education",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/mortarboard.png"
-       		 },
-	     "markers": [
-                {
-                    "id": "marker.education",
-                    "name": "education marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location.png"
-                    }
-		}]
-	},
-	{
-            "id": "transport",
-            "name": "transport",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/delivery-truck.png"
-       		 },
-	    "markers": [
-                {
-                    "id": "marker.transport",
-                    "name": "transport marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
-                    }
-		}]
-	},
-	{
-            "id": "park",
-            "name": "park",
-            "iconURL": {
-                "method": "GET",
-                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/park.png"
-       		 },
-	    "markers": [
-                {
-                    "id": "marker.park",
-                    "name": "park marker",
-                    "iconURL": {
-                        "method": "GET",
-                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/forest.png"
-                    }
-		}]
 	}],
 	"customPallets": [{
 		"name": "Weather",
