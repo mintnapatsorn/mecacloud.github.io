@@ -1,0 +1,26 @@
+ [
+   {
+    "id": "marker.poi.shop.seven",
+    "name": "เซเว่น",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": -25.363,
+      "lng": 131.044
+    }
+  },
+  {
+    "id": "marker.poi.coffee.demo",
+    "name": "ร้านกาแฟ",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": -25.363,
+      "lng": 131.044
+    }
+  }
+]
