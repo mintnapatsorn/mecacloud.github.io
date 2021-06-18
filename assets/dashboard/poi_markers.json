@@ -1,26 +1,194 @@
  [
    {
-    "id": "marker.poi.shop.seven",
+    "id": "marker.poi.shop.seven.inc2",
     "name": "เซเว่น",
     "iconURL": {
       "method": "GET",
       "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
     },
     "position": {
-      "lat": -25.363,
-      "lng": 131.044
+      "lat": 14.078544,
+      "lng": 100.604250
     }
   },
   {
-    "id": "marker.poi.coffee.demo",
-    "name": "ร้านกาแฟ",
+    "id": "marker.poi.coffee.tsp.1",
+    "name": "ร้านกาแฟหอมกรุ่น อาคารเนคเทค",
     "iconURL": {
       "method": "GET",
       "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
     },
     "position": {
-      "lat": -25.363,
-      "lng": 131.044
+      "lat": 14.07779,
+      "lng": 100.60098
+    }
+  },
+  {
+    "id": "marker.poi.coffee.tsp.2",
+    "name": "ร้านกาแฟอเมซอน อาคารไบโอเทค",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07854,
+      "lng": 100.60109
+    }
+  },
+  {
+    "id": "marker.poi.coffee.tsp.3",
+    "name": "ร้านกาแฟคอฟฟี่ เทอราพี อาคารเอ็มเทค",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07907,
+      "lng": 100.60154
+    }
+  },
+  {
+    "id": "marker.poi.coffee.tsp.4",
+    "name": "ร้านกาแฟแบลคแคนยอน Coworking space",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07867,
+      "lng": 100.60204
+    }
+  },
+  {
+    "id": "marker.poi.coffee.tsp.5",
+    "name": "ร้านกาแฟ Tinny elephant ศูนย์ประชุมอุทยานวิทยาศาสตร์",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07869,
+      "lng": 100.60307
+    }
+  },
+  {
+    "id": "marker.poi.coffee.tsp.6",
+    "name": "ร้านกาแฟ Coffee indy plus ศูนย์อาหารสหกรณ์ออมทรัพย์ สวทช.",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.08052,
+      "lng": 100.60313
+    }
+  },
+  {
+    "id": "marker.poi.coffee.tsp.6",
+    "name": "ร้าน Ochaya สาขาอุทยานวิทยาศาสตร์ ตึก inc 2",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07822,
+      "lng": 100.60396
+    }
+  },
+  {
+    "id": "marker.poi.coffee.tsp.7",
+    "name": "ร้านกาแฟ Stamp's coffee ศูนย์หนังสือ สวทช.",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07702,
+      "lng": 100.60135
+    }
+  },
+  {
+    "id": "marker.poi.food.tsp.1",
+    "name": "ศูนย์อาหาร อาคารสราญวิทย์",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07794,
+      "lng": 100.60298
+    }
+  },
+  {
+    "id": "marker.poi.food.tsp.2",
+    "name": "ร้าน Science cafe ศูนย์ประชุมอุทยานวิทยาศาสตร์",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07871,
+      "lng": 100.60268
+    }
+  },
+  {
+    "id": "marker.poi.food.tsp.3",
+    "name": "ศูนย์อาหาร สหกรณ์ออมทรัพย์ สวทช.",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.08061,
+      "lng": 100.60309
+    }
+  },
+  {
+    "id": "marker.poi.food.tsp.4",
+    "name": "ร้านจันทร์กระพ้อ อาคาร inc 2",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07847,
+      "lng": 100.60418
+    }
+  },
+  {
+    "id": "marker.poi.food.tsp.5",
+    "name": "ร้าน Crepe club อาคาร inc 2",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07861,
+      "lng": 100.60385
+    }
+  },
+  {
+    "id": "marker.poi.atm.bualuang.tsp.1",
+    "name": "ตู้เอทีเอ็ม ธนาคารกรุงเทพ",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.077389,
+      "lng": 100.601946
+    }
+  },
+  {
+    "id": "marker.poi.atm.bualuang.tsp.2",
+    "name": "ตู้เอทีเอ็ม ธนาคารกรุงเทพ",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.078187,
+      "lng": 100.603993
     }
   }
 ]
