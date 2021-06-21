@@ -401,9 +401,9 @@
                                 {
                                     "id": "urn:smartnstda:HeatMap:wifi:coverage-2021-05",
                                     "data": [
-                                        {"location": {"lat": 14.076909, "lng": 100.601640}, weight: 34},
-                                        {"location": {"lat": 14.077877, "lng": 100.601377}, weight: 52},
-                                        {"location": {"lat": 14.078491, "lng": 100.601404}, weight: 34}
+                                        {"location": {"lat": 14.076909, "lng": 100.601640}, "weight": 34},
+                                        {"location": {"lat": 14.077877, "lng": 100.601377}, "weight": 34},
+                                        {"location": {"lat": 14.078491, "lng": 100.601404}, "weight": 52}
                                     ],
                                     "gradient": [
                                         "rgba(0, 255, 255, 0)",
