@@ -1,9 +1,9 @@
 {
-    "id": "urn:ngsi-ld:Dashboard:NSTDA",
+    "id": "urn:smartnstda:Dashboard:NSTDA",
     "type": "Dashboard",
     "customPallets": [
         {
-            "id": "urn:ngsi-ld:CustomPallet:weather",
+            "id": "urn:smartnstda:CustomPallet:weather",
             "dataURL": {
                 "method": "GET",
                 "url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
@@ -30,18 +30,18 @@
     "name": "NSTDA",
     "panelIcons": [
         {
-            "id": "urn:ngsi-ld:PanelIcon:electricity",
+            "id": "urn:smartnstda:PanelIcon:electricity",
             "defaultLayerIndex": 0,
             "layers": [
                 {
-                    "id": "urn:ngsi-ld:Layer:buildingElectricityUsage",
+                    "id": "urn:smartnstda:Layer:buildingElectricityUsage",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:buildingElectricityUsage",
+                            "id": "urn:smartnstda:MapObject:buildingElectricityUsage",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:buildingElectricityUsage:nectec",
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:nectec",
                                     "hoverContent": {
                                         "title": "การใช้ไฟฟ้าอาคารศอ.",
                                         "bodyContent": {
@@ -68,14 +68,14 @@
                     "name": "การใช้ไฟฟ้าแต่ละอาคาร"
                 },
                 {
-                    "id": "urn:ngsi-ld:Layer:solar",
+                    "id": "urn:smartnstda:Layer:solar",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:solar",
+                            "id": "urn:smartnstda:MapObject:solar",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:solar:nectec",
+                                    "id": "urn:smartnstda:Marker:solar:nectec",
                                     "hoverContent": {
                                         "title": "สถิติพลังงาน Solar Cell ศอ.",
                                         "bodyContent": {
@@ -110,18 +110,18 @@
             "tooltip": "Electricity"
         },
         {
-            "id": "urn:ngsi-ld:PanelIcon:water",
+            "id": "urn:smartnstda:PanelIcon:water",
             "defaultLayerIndex": 0,
             "layers": [
                 {
-                    "id": "urn:ngsi-ld:Layer:buildingWaterUsage",
+                    "id": "urn:smartnstda:Layer:buildingWaterUsage",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:buildingWaterUsage",
+                            "id": "urn:smartnstda:MapObject:buildingWaterUsage",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:buildingWaterUsage:nectec",
+                                    "id": "urn:smartnstda:Marker:buildingWaterUsage:nectec",
                                     "iconURL": {
                                         "method": "GET",
                                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/icon-water-66-32x32.png"
@@ -147,18 +147,18 @@
             "tooltip": "Water"
         },
         {
-            "id": "urn:ngsi-ld:PanelIcon:waste",
+            "id": "urn:smartnstda:PanelIcon:waste",
             "defaultLayerIndex": 0,
             "layers": [
                 {
-                    "id": "urn:ngsi-ld:Layer:waste",
+                    "id": "urn:smartnstda:Layer:waste",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:waste",
+                            "id": "urn:smartnstda:MapObject:waste",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:waste:nectec",
+                                    "id": "urn:smartnstda:Marker:waste:nectec",
                                     "hoverContent": {
                                         "title": "ปริมาณขยะแยกประเภทอาคารศอ.",
                                         "bodyContent": {
@@ -185,14 +185,14 @@
                     "name": "ปริมาณขยะแยกประเภท"
                 },
                 {
-                    "id": "urn:ngsi-ld:Layer:consumer",
+                    "id": "urn:smartnstda:Layer:consumer",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:consumer",
+                            "id": "urn:smartnstda:MapObject:consumer",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:consumer:nectec",
+                                    "id": "urn:smartnstda:Marker:consumer:nectec",
                                     "hoverContent": {
                                         "title": "ปริมาณการใช้ของอุปโภคอาคารศอ.",
                                         "bodyContent": {
@@ -227,18 +227,18 @@
             "tooltip": "Waste"
         },
         {
-            "id": "urn:ngsi-ld:PanelIcon:security",
+            "id": "urn:smartnstda:PanelIcon:security",
             "defaultLayerIndex": 0,
             "layers": [
                 {
-                    "id": "urn:ngsi-ld:Layer:checkPoint",
+                    "id": "urn:smartnstda:Layer:checkPoint",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:checkPoint",
+                            "id": "urn:smartnstda:MapObject:checkPoint",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:checkPoint:mainGate",
+                                    "id": "urn:smartnstda:Marker:checkPoint:mainGate",
                                     "iconURL": {
                                         "method": "GET",
                                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/badge.png"
@@ -250,7 +250,7 @@
                                     }
                                 },
                                 {
-                                    "id": "urn:ngsi-ld:Marker:checkPoint:backGate",
+                                    "id": "urn:smartnstda:Marker:checkPoint:backGate",
                                     "iconURL": {
                                         "method": "GET",
                                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/badge.png"
@@ -268,14 +268,14 @@
                     "name": "จุดตรวจรักษาความปลอดภัย"
                 },
                 {
-                    "id": "urn:ngsi-ld:Layer:assemblyPoint",
+                    "id": "urn:smartnstda:Layer:assemblyPoint",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:assemblyPoint",
+                            "id": "urn:smartnstda:MapObject:assemblyPoint",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:assemblyPoint:nectec",
+                                    "id": "urn:smartnstda:Marker:assemblyPoint:nectec",
                                     "iconURL": {
                                         "method": "GET",
                                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/fire.png"
@@ -301,18 +301,18 @@
             "tooltip": "Security"
         },
         {
-            "id": "urn:ngsi-ld:PanelIcon:transport",
+            "id": "urn:smartnstda:PanelIcon:transport",
             "defaultLayerIndex": 0,
             "layers": [
                 {
-                    "id": "urn:ngsi-ld:Layer:nstdaShuttle",
+                    "id": "urn:smartnstda:Layer:nstdaShuttle",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:nstdaShuttle",
+                            "id": "urn:smartnstda:MapObject:nstdaShuttle",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:nstdaShuttle:nstda",
+                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda",
                                     "iconURL": {
                                         "method": "GET",
                                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
@@ -338,18 +338,18 @@
             "tooltip": "Transport"
         },
         {
-            "id": "urn:ngsi-ld:PanelIcon:poi",
+            "id": "urn:smartnstda:PanelIcon:poi",
             "defaultLayerIndex": 0,
             "layers": [
                 {
-                    "id": "urn:ngsi-ld:Layer:parking",
+                    "id": "urn:smartnstda:Layer:parking",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:parking",
+                            "id": "urn:smartnstda:MapObject:parking",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:parking:mpb",
+                                    "id": "urn:smartnstda:Marker:parking:mpb",
                                     "iconURL": {
                                         "method": "GET",
                                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
@@ -367,14 +367,14 @@
                     "name": "ที่จอดรถ"
                 },
                 {
-                    "id": "urn:ngsi-ld:Layer:shopRestaurant",
+                    "id": "urn:smartnstda:Layer:shopRestaurant",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:shopRestaurant",
+                            "id": "urn:smartnstda:MapObject:shopRestaurant",
                             "markers": [
                                 {
-                                    "id": "urn:ngsi-ld:Marker:shopRestaurant:seven",
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:seven",
                                     "iconURL": {
                                         "method": "GET",
                                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
@@ -392,14 +392,14 @@
                     "name": "ร้านค้า/ร้านอาหาร"
                 },
                 {
-                    "id": "urn:ngsi-ld:Layer:wifi",
+                    "id": "urn:smartnstda:Layer:wifi",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
-                            "id": "urn:ngsi-ld:MapObject:wifi:coverage-2021-05",
+                            "id": "urn:smartnstda:MapObject:wifi:coverage-2021-05",
                             "heatmaps": [
                                 {
-                                    "id": "urn:ngsi-ld:HeatMap:wifi:coverage-2021-05",
+                                    "id": "urn:smartnstda:HeatMap:wifi:coverage-2021-05",
                                     "data": [
                                         {"location": {"lat": 14.076909, "lng": 100.601640}, weight: 34},
                                         {"location": {"lat": 14.077877, "lng": 100.601377}, weight: 52},
