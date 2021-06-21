@@ -1,189 +1,442 @@
 {
-	"name": "NSTDA",
-	"panelIcons": [{
-		"id": "road",
-		"name": "road",
-		"iconURL": {
-			"method": "GET",
-			"url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/road.png"
-		},
-		"tooltip": "Demo icon",
-		"mapOption": {
-			"center": {
-				"lat": -34.397,
-				"lng": 150.644
-			},
-			"zoom": 8
-		},
-		"defaultLayerIndex": 0,
-		"layers": [
-			{
-				"id": "example",
-				"name": "ตัวอย่าง",
-				"markers": [{
-					"id": "marker.demo",
-					"name": "Demo marker",
-					"iconURL": {
-						"method": "GET",
-						"url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
-					},
-					"hoverContent": {
-						"title": "Demo",
-						"headContent": {
-							"dataURL": {
-								"method": "GET",
-								"url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
-							},
-							"template": "{{main.temp}}/{{main.humidity}}%"
-						},
-						"bodyContent": {
-							"embeddedURL": {
-								"method": "GET",
-								"url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)&hide-filter-bar=true"
-							}
-						}
-					},
-					"position": {
-						"lat": -25.363,
-						"lng": 131.044
-					}
-				}],
-				"shapes": [{
-						"id": "polyline.demo",
-						"name": "Demo polyline",
-						"type": "Polyline",
-						"polylineOption": {
-							"path": [{
-									"lat": 37.772,
-									"lng": -122.214
-								},
-								{
-									"lat": 21.291,
-									"lng": -157.821
-								},
-								{
-									"lat": -18.142,
-									"lng": 178.431
-								},
-								{
-									"lat": -27.467,
-									"lng": 153.027
-								}
-							],
-							"geodesic": false,
-							"strokeColor": "#FF0000",
-							"strokeOpacity": 0.8,
-							"strokeWeight": 2,
-							"visible": true,
-							"zIndex": 1
-						}
-					},
-					{
-						"id": "polygon.demo",
-						"name": "Demo polygon",
-						"type": "Polygon",
-						"polylineOption": {
-							"path": [{
-									"lat": 37.772,
-									"lng": -122.214
-								},
-								{
-									"lat": 21.291,
-									"lng": -157.821
-								},
-								{
-									"lat": -18.142,
-									"lng": 178.431
-								},
-								{
-									"lat": -27.467,
-									"lng": 153.027
-								}
-							],
-							"geodesic": false,
-							"strokeColor": "#FF0000",
-							"strokeOpacity": 0.8,
-							"strokeWeight": 2,
-							"fillColor": "#FF0000",
-							"fillOpacity": 0.35
-						}
-					},
-					{
-						"id": "rectangle.demo",
-						"name": "Demo rectangle",
-						"type": "Rectangle",
-						"polylineOption": {
-							"strokeColor": "#FF0000",
-							"strokeOpacity": 0.8,
-							"strokeWeight": 2,
-							"fillColor": "#FF0000",
-							"fillOpacity": 0.35,
-							"bounds": {
-								"north": 33.685,
-								"south": 33.671,
-								"east": -116.234,
-								"west": -116.251
-							}
-						}
-					},
-					{
-						"id": "circle.demo",
-						"name": "Demo circle",
-						"type": "Circle",
-						"polylineOption": {
-							"strokeColor": "#FF0000",
-							"strokeOpacity": 0.8,
-							"strokeWeight": 2,
-							"fillColor": "#FF0000",
-							"fillOpacity": 0.35,
-							"center": {
-								"lat": 49.25,
-								"lng": -123.1
-							},
-							"radius": 100
-						}
-					}
-				]
-			}
-		],
-		"hoverContent": {
-			"title": "Demo",
-			"headContent": {
-				"dataURL": {
-					"method": "GET",
-					"url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
-				},
-				"template": "{{main.temp}}/{{main.humidity}}%"
-			},
-			"bodyContent": {
-				"embeddedURL": {
-					"method": "GET",
-					"url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/eba5ad60-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87,viewMode:view)&hide-filter-bar=true"
-				}
-			}
-		}
-	}],
-	"customPallets": [{
-		"name": "Weather",
-		"iconURL": {
-			"method": "GET",
-			"url": "https://bulma.io/images/placeholders/32x32.png"
-		},
-		"dataURL": {
-			"method": "GET",
-			"url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
-		},
-		"template": "{{main.temp}}/{{main.humidity}}%"
-	}],
-	"mapOption": {
-		"center": {
-			"lat": -34.397,
-			"lng": 150.644
-		},
-		"zoom": 8
-	},
-	"logoURL": {
-		"method": "GET",
-		"url": "https://bulma.io/images/placeholders/32x32.png"
-	}
+    "id": "urn:ngsi-ld:Dashboard:NSTDA",
+    "type": "Dashboard",
+    "customPallets": [
+        {
+            "id": "urn:ngsi-ld:CustomPallet:weather",
+            "dataURL": {
+                "method": "GET",
+                "url": "https://api.openweathermap.org/data/2.5/weather?lat=14.076648&lon=100.601465&units=metric&appid=f47eeabecaa43594079886ab0fcd1508"
+            },
+            "iconURL": {
+                "method": "GET",
+                "url": "https://bulma.io/images/placeholders/32x32.png"
+            },
+            "name": "Weather",
+            "template": "{{main.temp}}/{{main.humidity}}%"
+        }
+    ],
+    "logoURL": {
+        "method": "GET",
+        "url": "https://www.nstda.or.th/home/wp-content/themes/nstda/assets/images/Logo_NSTDA_30year.svg"
+    },
+    "mapOption": {
+        "center": {
+            "lat": 14.076575,
+            "lng": 100.601642 
+        },
+        "zoom": 13
+    },
+    "name": "NSTDA",
+    "panelIcons": [
+        {
+            "id": "urn:ngsi-ld:PanelIcon:electricity",
+            "defaultLayerIndex": 0,
+            "layers": [
+                {
+                    "id": "urn:ngsi-ld:Layer:buildingElectricityUsage",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:buildingElectricityUsage",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:buildingElectricityUsage:nectec",
+                                    "hoverContent": {
+                                        "title": "การใช้ไฟฟ้าอาคารศอ.",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        }
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/light.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารศอ.",
+                                    "position": {
+                                        "lat": 14.077870,
+                                        "lng": 100.601298
+                                    }
+                                }
+                            ],
+                            "name": "การใช้ไฟฟ้าแต่ละอาคาร"
+                        }
+                    ],
+                    "name": "การใช้ไฟฟ้าแต่ละอาคาร"
+                },
+                {
+                    "id": "urn:ngsi-ld:Layer:solar",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:solar",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:solar:nectec",
+                                    "hoverContent": {
+                                        "title": "สถิติพลังงาน Solar Cell ศอ.",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://www.sunnyportal.com/Templates/PublicPage.aspx?page=63a455d9-b50a-4915-8dc9-34edcc1273bd"
+                                            }
+                                        }
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/light.png"
+                                    },
+                                    "name": "จุดติดตั้ง Solar Cell ศอ.",
+                                    "position": {
+                                        "lat": 14.077870,
+                                        "lng": 100.601298
+                                    }
+                                }
+                            ],
+                            "name": "จุดติดตั้ง Solar Cell"
+                        }
+                    ],
+                    "name": "จุดติดตั้ง Solar Cell"
+                }
+            ],
+            "logoURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/light.png"
+            },
+            "name": "Electricity",
+            "tooltip": "Electricity"
+        },
+        {
+            "id": "urn:ngsi-ld:PanelIcon:water",
+            "defaultLayerIndex": 0,
+            "layers": [
+                {
+                    "id": "urn:ngsi-ld:Layer:buildingWaterUsage",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:buildingWaterUsage",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:buildingWaterUsage:nectec",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/icon-water-66-32x32.png"
+                                    },
+                                    "name": "การใช้น้ำประปาอาคารศอ.",
+                                    "position": {
+                                        "lat": 14.077870,
+                                        "lng": 100.601298
+                                    }
+                                }
+                            ],
+                            "name": "การใช้น้ำประปาแต่ละอาคาร"
+                        }
+                    ],
+                    "name": "การใช้ประปาแต่ละอาคาร"
+                }
+            ],
+            "logoURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/drop.png"
+            },
+            "name": "Water",
+            "tooltip": "Water"
+        },
+        {
+            "id": "urn:ngsi-ld:PanelIcon:waste",
+            "defaultLayerIndex": 0,
+            "layers": [
+                {
+                    "id": "urn:ngsi-ld:Layer:waste",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:waste",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:waste:nectec",
+                                    "hoverContent": {
+                                        "title": "ปริมาณขยะแยกประเภทอาคารศอ.",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)&hide-filter-bar=true"
+                                            }
+                                        }
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณขยะแยกประเภทอาคารศอ.",
+                                    "position": {
+                                        "lat": 14.077870,
+                                        "lng": 100.601298
+                                    }
+                                }
+                            ],
+                            "name": "ปริมาณขยะแยกประเภทแต่ละอาคาร"
+                        }
+                    ],
+                    "name": "ปริมาณขยะแยกประเภท"
+                },
+                {
+                    "id": "urn:ngsi-ld:Layer:consumer",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:consumer",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:consumer:nectec",
+                                    "hoverContent": {
+                                        "title": "ปริมาณการใช้ของอุปโภคอาคารศอ.",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/eba5ad60-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87,viewMode:view)&hide-filter-bar=true"
+                                            }
+                                        }
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณการใช้ของอุปโภคอาคารศอ.",
+                                    "position": {
+                                        "lat": 14.077870,
+                                        "lng": 100.601298
+                                    }
+                                }
+                            ],
+                            "name": "ปริมาณการใช้ของอุปโภคแต่ละอาคาร"
+                        }
+                    ],
+                    "name": "ปริมาณการใช้ของอุปโภค"
+                }
+            ],
+            "logoURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/garbage.png"
+            },
+            "name": "Waste",
+            "tooltip": "Waste"
+        },
+        {
+            "id": "urn:ngsi-ld:PanelIcon:security",
+            "defaultLayerIndex": 0,
+            "layers": [
+                {
+                    "id": "urn:ngsi-ld:Layer:checkPoint",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:checkPoint",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:checkPoint:mainGate",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/badge.png"
+                                    },
+                                    "name": "จุดตรวจทางเข้าหลัก",
+                                    "position": {
+                                        "lat": 14.075792,
+                                        "lng": 100.603466
+                                    }
+                                },
+                                {
+                                    "id": "urn:ngsi-ld:Marker:checkPoint:backGate",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/badge.png"
+                                    },
+                                    "name": "จุดตรวจทางเข้าคชสาร",
+                                    "position": {
+                                        "lat": 14.080047,
+                                        "lng": 100.598052
+                                    }
+                                }
+                            ],
+                            "name": "จุดตรวจรักษาความปลอดภัย"
+                        }
+                    ],
+                    "name": "จุดตรวจรักษาความปลอดภัย"
+                },
+                {
+                    "id": "urn:ngsi-ld:Layer:assemblyPoint",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:assemblyPoint",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:assemblyPoint:nectec",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/fire.png"
+                                    },
+                                    "name": "จุดรวมพล ศอ.",
+                                    "position": {
+                                        "lat": 14.075792,
+                                        "lng": 100.603466
+                                    }
+                                }
+                            ],
+                            "name": "จุดรวมพล"
+                        }
+                    ],
+                    "name": "จุดรวมพล"
+                }
+            ],
+            "logoURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/badge.png"
+            },
+            "name": "Security",
+            "tooltip": "Security"
+        },
+        {
+            "id": "urn:ngsi-ld:PanelIcon:transport",
+            "defaultLayerIndex": 0,
+            "layers": [
+                {
+                    "id": "urn:ngsi-ld:Layer:nstdaShuttle",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:nstdaShuttle",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:nstdaShuttle:nstda",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "จุดจอดรถเวียน สก.",
+                                    "position": {
+                                        "lat": 14.076745,
+                                        "lng": 100.601651
+                                    }
+                                }
+                            ],
+                            "name": "รถเวียนรอบอุทยานฯ"
+                        }
+                    ],
+                    "name": "รถเวียนรอบอุทยานฯ"
+                }
+            ],
+            "logoURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/road.png"
+            },
+            "name": "Transport",
+            "tooltip": "Transport"
+        },
+        {
+            "id": "urn:ngsi-ld:PanelIcon:poi",
+            "defaultLayerIndex": 0,
+            "layers": [
+                {
+                    "id": "urn:ngsi-ld:Layer:parking",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:parking",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:parking:mpb",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "ที่จอดรถอาคารสราญวิทย์",
+                                    "position": {
+                                        "lat": 14.077872,
+                                        "lng": 100.602815
+                                    }
+                                }
+                            ],
+                            "name": "ที่จอดรถ"
+                        }
+                    ],
+                    "name": "ที่จอดรถ"
+                },
+                {
+                    "id": "urn:ngsi-ld:Layer:shopRestaurant",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:shopRestaurant",
+                            "markers": [
+                                {
+                                    "id": "urn:ngsi-ld:Marker:shopRestaurant:seven",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "7-Eleven INC2",
+                                    "position": {
+                                        "lat": 14.078574,
+                                        "lng": 100.604194
+                                    }
+                                }
+                            ],
+                            "name": "ร้านค้า/ร้านอาหาร"
+                        }
+                    ],
+                    "name": "ร้านค้า/ร้านอาหาร"
+                },
+                {
+                    "id": "urn:ngsi-ld:Layer:wifi",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:ngsi-ld:MapObject:wifi:coverage-2021-05",
+                            "heatmaps": [
+                                {
+                                    "id": "urn:ngsi-ld:HeatMap:wifi:coverage-2021-05",
+                                    "data": [
+                                        {"location": {"lat": 14.076909, "lng": 100.601640}, weight: 34},
+                                        {"location": {"lat": 14.077877, "lng": 100.601377}, weight: 52},
+                                        {"location": {"lat": 14.078491, "lng": 100.601404}, weight: 34}
+                                    ],
+                                    "gradient": [
+                                        "rgba(0, 255, 255, 0)",
+                                        "rgba(0, 255, 255, 1)",
+                                        "rgba(0, 191, 255, 1)",
+                                        "rgba(0, 127, 255, 1)",
+                                        "rgba(0, 63, 255, 1)",
+                                        "rgba(0, 0, 255, 1)",
+                                        "rgba(0, 0, 223, 1)",
+                                        "rgba(0, 0, 191, 1)",
+                                        "rgba(0, 0, 159, 1)",
+                                        "rgba(0, 0, 127, 1)",
+                                        "rgba(63, 0, 91, 1)",
+                                        "rgba(127, 0, 63, 1)",
+                                        "rgba(191, 0, 31, 1)",
+                                        "rgba(255, 0, 0, 1)"
+                                    ],
+                                    "radius": 20,
+                                    "opacity": 0.2
+                                }
+                            ],
+                            "name": "พื้นที่ให้บริการ WiFi พฤษภาคม 2564"
+                        }
+                    ],
+                    "name": "พื้นที่ให้บริการ WiFi"
+                }
+            ],
+            "logoURL": {
+                "method": "GET",
+                "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/location-pointer.png"
+            },
+            "name": "Point of Interest",
+            "tooltip": "Point of Interest"
+        },
+    ]
 }
