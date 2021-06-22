@@ -49,7 +49,8 @@
                                                 "method": "GET",
                                                 "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
                                             }
-                                        }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
                                     },
                                     "iconURL": {
                                         "method": "GET",
@@ -83,7 +84,8 @@
                                                 "method": "GET",
                                                 "url": "https://www.sunnyportal.com/Templates/PublicPage.aspx?page=63a455d9-b50a-4915-8dc9-34edcc1273bd"
                                             }
-                                        }
+                                        },
+                                        "footer": "ข้อมูลจาก BESS ศอ."
                                     },
                                     "iconURL": {
                                         "method": "GET",
@@ -166,7 +168,8 @@
                                                 "method": "GET",
                                                 "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)&hide-filter-bar=true"
                                             }
-                                        }
+                                        },
+                                        "footer": "ข้อมูลจาก BESS ศอ."
                                     },
                                     "iconURL": {
                                         "method": "GET",
@@ -200,7 +203,8 @@
                                                 "method": "GET",
                                                 "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/eba5ad60-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A7%E0%B8%B1%E0%B8%AA%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B9%89%E0%B9%80%E0%B8%9B%E0%B8%A5%E0%B8%B7%E0%B8%AD%E0%B8%87,viewMode:view)&hide-filter-bar=true"
                                             }
-                                        }
+                                        },
+                                        "footer": "ข้อมูลจาก BESS ศอ."
                                     },
                                     "iconURL": {
                                         "method": "GET",
