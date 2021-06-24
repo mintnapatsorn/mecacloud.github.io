@@ -12,15 +12,204 @@
     }
   },
   {
-    "id": "marker.poi.coffee.demo",
-    "name": "ร้านกาแฟ",
+    "id": "marker.poi.atm",
+    "name": "ตู้เอทีเอ็มธนาคาร กรุงเทพฯ อาคาร inc 2",
     "iconURL": {
       "method": "GET",
       "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
     },
     "position": {
-      "lat": -25.363,
-      "lng": 131.044
+      "lat": 14.07829,
+      "lng": 100.60402
+    }
+  },
+  {
+    "id": "marker.poi.atm",
+    "name": "ตู้เอทีเอ็มธนาคาร กรุงเทพฯ อาคารสำนักงานกลาง",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07712,
+      "lng": 100.60191
+    }
+  },
+  {
+    "id": "marker.poi.coffee",
+    "name": "ร้านกาแฟหอมกรุ่น อาคาร NECTEC",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07779,
+      "lng": 100.60098
+   },
+   {
+    "id": "marker.poi.coffee",
+    "name": "ร้านกาแฟหอมกรุ่น อาคาร BIOTEC",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07854,
+      "lng": 100.60109
+   },
+   {
+    "id": "marker.poi.coffee",
+    "name": "ร้านกาแฟ Coffee Therapy อาคาร MTEC",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07907,
+      "lng": 100.60154
+   },
+   {
+    "id": "marker.poi.coffee",
+    "name": "ร้าน Black Canyon Coffee and Eatery Co-working space",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07862,
+      "lng": 100.60212
+   },
+   {
+    "id": "marker.poi.coffee",
+    "name": "ร้านกาแฟ Tiny elephant ศูนย์ประชุมอุทยานวิทยาศาสตร์ฯ",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07869,
+      "lng": 100.60307
+   },
+   {
+    "id": "marker.poi.coffee",
+    "name": "ร้าน Ochaya อาคาร inc 2",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07822,
+      "lng": 100.60396
+   },
+   {
+    "id": "marker.poi.coffee",
+    "name": "ร้าน Coffee indy plus ศูนย์อาหารสหกรณ์อมทรัพย์ สวทช.",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.08052,
+      "lng": 100.60313
+   },
+   {
+    "id": "marker.poi.coffee",
+    "name": "ร้านกาแฟหอมกรุ่น อาคาร inc 1",
+    "iconURL": {
+      "method": "GET",
+      "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+    },
+    "position": {
+      "lat": 14.07727,
+      "lng": 100.60291
+   },
+   {
+    "id": "marker.poi.coffee",
+    "name": "ร้าน Stamp's coffee อาคารสำนักงานกลาง",
+    "iconURL": {
+       "method": "GET",
+       "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+     },
+     "position": {
+       "lat": 14.07702,
+       "lng": 100.60135
+    },
+    {
+    "id": "marker.poi.coffee",
+    "name": "ร้าน Shinsei matcha อาคาร inc 2",
+    "iconURL": {
+       "method": "GET",
+       "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+     },
+     "position": {
+       "lat": 14.07856,
+       "lng": 100.60394
+    },
+    {
+     "id": "marker.poi.food",
+     "name": "ศูนย์อาหารอาคารสราญวิทย์",
+     "iconURL": {
+       "method": "GET",
+       "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+     },
+     "position": {
+       "lat": 14.07794,
+       "lng": 100.60298
+    },
+    {
+      "id": "marker.poi.food",
+      "name": "ศูนย์อาหารสหกรณ์ออมทรัพย์ สวทช.",
+      "iconURL": {
+        "method": "GET",
+        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+      },
+      "position": {
+        "lat": 14.08061,
+        "lng": 100.60309
+    },
+    {
+      "id": "marker.poi.food",
+      "name": "ร้าน Fresh fruit i love สุขภาพ",
+      "iconURL": {
+        "method": "GET",
+        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+      },
+      "position": {
+        "lat": 14.07840,
+        "lng": 100.60402
+    }, 
+    {
+      "id": "marker.poi.food",
+      "name": "ร้าน Fresh fruit i love สุขภาพ",
+      "iconURL": {
+        "method": "GET",
+        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+      },
+      "position": {
+        "lat": 14.07840,
+        "lng": 100.60402
+    }, 
+    {
+      "id": "marker.poi.food",
+      "name": "ร้านอาหารจันทร์กะพ้อ",
+      "iconURL": {
+        "method": "GET",
+        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+      },
+      "position": {
+        "lat": 14.07847,
+        "lng": 100.60418
+    },  
+    {
+     "id": "marker.poi.food",
+     "name": "ร้านอาหาร Science cafe",
+     "iconURL": {
+       "method": "GET",
+       "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+     },
+     "position": {
+       "lat": 14.07871,
+       "lng": 100.60268
     }
   }
 ]
