@@ -160,16 +160,126 @@
                             "id": "urn:smartnstda:MapObject:waste",
                             "markers": [
                                 {
+                                    "id": "urn:smartnstda:Marker:waste:biotec",
+                                    "hoverContent": {
+                                        "title": "ปริมาณขยะแยกประเภทอาคารศช.",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/f24dd770-d979-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20BIOTEC',viewMode:view)"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก FMD สวทช."
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณขยะแยกประเภทอาคารศช.",
+                                    "position": {
+                                        "lat": 14.078423, 
+                                        "lng": 100.601286 
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:waste:cc",
+                                    "hoverContent": {
+                                        "title": "ปริมาณขยะแยกประเภทอาคารศูนย์ประชุม",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/19d2b950-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20CC',viewMode:view)"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก FMD สวทช."
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณขยะแยกประเภทอาคารศูนย์ประชุม",
+                                    "position": {
+                                        "lat": 14.078548, 
+                                        "lng": 100.602949
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:waste:co",
+                                    "hoverContent": {
+                                        "title": "ปริมาณขยะแยกประเภทอาคารสำนักงานกลาง",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/35001f10-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20CO',viewMode:view)"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก FMD สวทช."
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณขยะแยกประเภทอาคารสำนักงานกลาง",
+                                    "position": {
+                                        "lat": 14.077091,
+                                        "lng": 100.601597
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:waste:mpb",
+                                    "hoverContent": {
+                                        "title": "ปริมาณขยะแยกประเภทอาคารสราญวิทย์",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/734373d0-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20MPB',viewMode:view)"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก FMD สวทช."
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณขยะแยกประเภทอาคารสราญวิทย์",
+                                    "position": {
+                                        "lat": 14.077955, 
+                                        "lng": 100.602906
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:waste:mtec",
+                                    "hoverContent": {
+                                        "title": "ปริมาณขยะแยกประเภทอาคารศว.",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/87560090-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20MTEC',viewMode:view)"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก FMD สวทช."
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณขยะแยกประเภทอาคารศว.",
+                                    "position": {
+                                        "lat": 14.079027, 
+                                        "lng": 100.601318
+                                    }
+                                },
+                                {
                                     "id": "urn:smartnstda:Marker:waste:nectec",
                                     "hoverContent": {
                                         "title": "ปริมาณขยะแยกประเภทอาคารศอ.",
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)&hide-filter-bar=true"
+                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)"
                                             }
                                         },
-                                        "footer": "ข้อมูลจาก BESS ศอ."
+                                        "footer": "ข้อมูลจาก FMD สวทช."
                                     },
                                     "iconURL": {
                                         "method": "GET",
@@ -177,8 +287,30 @@
                                     },
                                     "name": "ปริมาณขยะแยกประเภทอาคารศอ.",
                                     "position": {
-                                        "lat": 14.077870,
-                                        "lng": 100.601298
+                                        "lat": 14.077861, 
+                                        "lng": 100.601276
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:waste:ssh",
+                                    "hoverContent": {
+                                        "title": "ปริมาณขยะแยกประเภทอาคาบ้านวิทย์ฯ",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/98979300-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20SSH',viewMode:view)"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก FMD สวทช."
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณขยะแยกประเภทอาคาบ้านวิทย์ฯ",
+                                    "position": {
+                                        "lat": 14.080973, 
+                                        "lng": 100.604258
                                     }
                                 }
                             ],
@@ -221,6 +353,41 @@
                         }
                     ],
                     "name": "ปริมาณการใช้ของอุปโภค"
+                },
+                {
+                    "id": "urn:smartnstda:Layer:waste-water",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:smartnstda:MapObject:waste-water",
+                            "markers": [
+                                {
+                                    "id": "urn:smartnstda:Marker:waste-water:nstda",
+                                    "hoverContent": {
+                                        "title": "ปริมาณน้ำเสียที่ได้รับการบำบัด อุทยานฯ ปี 2563",
+                                        "bodyContent": {
+                                            "embeddedURL": {
+                                                "method": "GET",
+                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/c7c97ef0-d97e-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2019-12-31T17:00:00.000Z',to:'2020-12-30T17:00:00.000Z'))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94%20%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%AF%20%E0%B8%9B%E0%B8%B5%202563',viewMode:view)"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก SED สวทช."
+                                    },
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/garbage-bag.png"
+                                    },
+                                    "name": "ปริมาณน้ำเสียที่ได้รับการบำบัด อุทยานฯ ปี 2563",
+                                    "position": {
+                                        "lat": 14.080754, 
+                                        "lng": 100.601522 
+                                    }
+                                }
+                            ],
+                            "name": "ปริมาณน้ำเสียที่ได้รับการบำบัด ปี 2563"
+                        }
+                    ],
+                    "name": "ปริมาณน้ำเสียที่ได้รับการบำบัด"
                 }
             ],
             "logoURL": {
@@ -378,15 +545,227 @@
                             "id": "urn:smartnstda:MapObject:shopRestaurant",
                             "markers": [
                                 {
-                                    "id": "urn:smartnstda:Marker:shopRestaurant:seven",
-                                    "iconURL": {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:7-11:inc2",
+                                    "name": "เซเว่นอีเลเว่น อาคาร INC 2",
+                                    "iconURL":
+                                    {
                                         "method": "GET",
-                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
                                     },
-                                    "name": "7-Eleven INC2",
-                                    "position": {
-                                        "lat": 14.078574,
-                                        "lng": 100.604194
+                                    "position":
+                                    {
+                                        "lat": 14.07860,
+                                        "lng": 100.60415
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:homkrun:nectec",
+                                    "name": "ร้านกาแฟหอมกรุ่น อาคาร NECTEC",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07779,
+                                        "lng": 100.60098
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:amazon:biotec",
+                                    "name": "ร้านกาแฟอเมซอน อาคาร BIOTEC",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07854,
+                                        "lng": 100.60109
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:coffee-therapy:mtec",
+                                    "name": "ร้านกาแฟ Coffee Therapy อาคาร MTEC",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07907,
+                                        "lng": 100.60154
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:Black-canyon:coworking",
+                                    "name": "ร้าน Black Canyon Coffee and Eatery Co-working space",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07862,
+                                        "lng": 100.60212
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:tiny-elephant:cc",
+                                    "name": "ร้านกาแฟ Tiny elephant ศูนย์ประชุมอุทยานวิทยาศาสตร์ฯ",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07869,
+                                        "lng": 100.60307
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:ochaya:inc2",
+                                    "name": "ร้าน Ochaya อาคาร inc 2",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07822,
+                                        "lng": 100.60396
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:coffee-indy:dorm",
+                                    "name": "ร้าน Coffee indy plus ศูนย์อาหารสหกรณ์อมทรัพย์ สวทช.",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.08052,
+                                        "lng": 100.60313
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:homkrun:inc1",
+                                    "name": "ร้านกาแฟหอมกรุ่น อาคาร inc 1",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07727,
+                                        "lng": 100.60291
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:stamp-coffee:co",
+                                    "name": "ร้าน Stamp's coffee อาคารสำนักงานกลาง",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07702,
+                                        "lng": 100.60135
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:shinsei-matcha:inc2",
+                                    "name": "ร้าน Shinsei matcha อาคาร inc 2",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07856,
+                                        "lng": 100.60394
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:mpb",
+                                    "name": "ศูนย์อาหารอาคารสราญวิทย์",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07794,
+                                        "lng": 100.60298
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:dorm",
+                                    "name": "ศูนย์อาหารสหกรณ์ออมทรัพย์ สวทช.",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.08061,
+                                        "lng": 100.60309
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:fresh-fruit:inc2",
+                                    "name": "ร้าน Fresh fruit i love สุขภาพ",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07840,
+                                        "lng": 100.60402
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:chankapor:inc2",
+                                    "name": "ร้านอาหารจันทร์กะพ้อ",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07847,
+                                        "lng": 100.60418
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:shopRestaurant:science-cafe:cc",
+                                    "name": "ร้านอาหาร Science cafe",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07871,
+                                        "lng": 100.60268
                                     }
                                 }
                             ],
@@ -394,6 +773,46 @@
                         }
                     ],
                     "name": "ร้านค้า/ร้านอาหาร"
+                },{
+                    "id": "urn:smartnstda:Layer:services",
+                    "defaultMapObjectIndex": 0,
+                    "mapObjects": [
+                        {
+                            "id": "urn:smartnstda:MapObject:services",
+                            "markers": [
+                                {
+                                    "id": "urn:smartnstda:Marker:services:atm:bbl:inc2",
+                                    "name": "ตู้เอทีเอ็มธนาคาร กรุงเทพ อาคาร INC 2",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07829,
+                                        "lng": 100.60402
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:services:atm:bbl:co",
+                                    "name": "ตู้เอทีเอ็มธนาคาร กรุงเทพ อาคารสำนักงานกลาง",
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+                                    },
+                                    "position":
+                                    {
+                                        "lat": 14.07712,
+                                        "lng": 100.60191
+                                    }
+                                }
+                            ],
+                            "name": "จุดบริการ"
+                        }
+                    ],
+                    "name": "จุดบริการ"
                 },
                 {
                     "id": "urn:smartnstda:Layer:wifi",
