@@ -798,7 +798,7 @@
                                     "iconURL":
                                     {
                                         "method": "GET",
-                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/point.png"
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location.png"
                                     },
                                     "position":
                                     {
@@ -812,7 +812,7 @@
                                     "iconURL":
                                     {
                                         "method": "GET",
-                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/point.png"
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location.png"
                                     },
                                     "position":
                                     {
