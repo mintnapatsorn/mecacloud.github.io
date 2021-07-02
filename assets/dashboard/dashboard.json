@@ -424,7 +424,7 @@
                                     "id": "urn:smartnstda:Marker:checkPoint:mainGate",
                                     "iconURL": {
                                         "method": "GET",
-                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/police-badge.png"
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/police-badge.png"
                                     },
                                     "name": "จุดตรวจทางเข้าหลัก",
                                     "position": {
@@ -436,7 +436,7 @@
                                     "id": "urn:smartnstda:Marker:checkPoint:backGate",
                                     "iconURL": {
                                         "method": "GET",
-                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/police-badge.png"
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/police-badge.png"
                                     },
                                     "name": "จุดตรวจทางเข้าคชสาร",
                                     "position": {
@@ -498,7 +498,7 @@
                                     "id": "urn:smartnstda:Marker:nstdaShuttle:nstda",
                                     "iconURL": {
                                         "method": "GET",
-                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
                                     },
                                     "name": "จุดจอดรถเวียน สก.",
                                     "position": {
