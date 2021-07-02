@@ -461,7 +461,7 @@
                                     "id": "urn:smartnstda:Marker:assemblyPoint:nectec",
                                     "iconURL": {
                                         "method": "GET",
-                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/Button/fire.png"
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/fire.png"
                                     },
                                     "name": "จุดรวมพล ศอ.",
                                     "position": {
