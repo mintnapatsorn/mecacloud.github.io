@@ -495,17 +495,89 @@
                             "id": "urn:smartnstda:MapObject:nstdaShuttle",
                             "markers": [
                                 {
-                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda",
+                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda0",
                                     "iconURL": {
                                         "method": "GET",
                                         "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
                                     },
-                                    "name": "จุดจอดรถเวียน สก.",
+                                    "name": "ป้าย หน้า MTEC",
                                     "position": {
-                                        "lat": 14.076745,
-                                        "lng": 100.601651
+                                        "lat": 14.0790606839815,
+                                        "lng": 100.600900053978
                                     }
-                                }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda1",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
+                                    },
+                                    "name": "ป้ายหน้า BIOTEC",
+                                    "position": {
+                                        "lat": 14.0784050702421,
+                                        "lng": 100.600873231888
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda2",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
+                                    },
+                                    "name": "ป้ายหน้า NECTEC",
+                                    "position": {
+                                        "lat": 14.0778170975898,
+                                        "lng": 100.600824952126
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda3",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
+                                    },
+                                    "name": "ป้ายบ้านวิทย์",
+                                    "position": {
+                                        "lat": 14.0812304398446,
+                                        "lng": 100.603635907173
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda4",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
+                                    },
+                                    "name": "ป้ายหน้าตึกส่วนกลาง",
+                                    "position": {
+                                        "lat": 14.076745214348,
+                                        "lng": 100.60162961483
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda5",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
+                                    },
+                                    "name": "ป้ายทางเชื่อมศูนย์ประชุม-อาคารINC2",
+                                    "position": {
+                                        "lat": 14.078477916306,
+                                        "lng": 100.60348033905
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:nstdaShuttle:nstda6",
+                                    "iconURL": {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/location-pin.png"
+                                    },
+                                    "name": "ป้ายหน้า Pilot Plant",
+                                    "position": {
+                                        "lat": 14.080373,
+                                        "lng": 100.60289
+                                    }
+                                },
                             ],
                             "name": "รถเวียนรอบอุทยานฯ"
                         }
