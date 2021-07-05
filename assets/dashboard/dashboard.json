@@ -178,7 +178,7 @@
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/f24dd770-d979-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20BIOTEC',viewMode:view)"
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/f24dd770-d979-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20BIOTEC',viewMode:view)"
                                             }
                                         },
                                         "footer": "ข้อมูลจาก FMD สวทช."
@@ -200,7 +200,7 @@
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/19d2b950-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20CC',viewMode:view)"
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/19d2b950-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20CC',viewMode:view)"
                                             }
                                         },
                                         "footer": "ข้อมูลจาก FMD สวทช."
@@ -222,7 +222,7 @@
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/35001f10-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20CO',viewMode:view)"
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/35001f10-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20CO',viewMode:view)"
                                             }
                                         },
                                         "footer": "ข้อมูลจาก FMD สวทช."
@@ -244,7 +244,7 @@
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/734373d0-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20MPB',viewMode:view)"
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/734373d0-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20MPB',viewMode:view)"
                                             }
                                         },
                                         "footer": "ข้อมูลจาก FMD สวทช."
@@ -266,7 +266,7 @@
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/87560090-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20MTEC',viewMode:view)"
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/87560090-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20MTEC',viewMode:view)"
                                             }
                                         },
                                         "footer": "ข้อมูลจาก FMD สวทช."
@@ -288,7 +288,7 @@
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)"
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/be46afe0-c765-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-1y,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20NECTEC',viewMode:view)"
                                             }
                                         },
                                         "footer": "ข้อมูลจาก FMD สวทช."
@@ -310,7 +310,7 @@
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/98979300-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20SSH',viewMode:view)"
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/98979300-d97a-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-12M,to:now))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%82%E0%B8%A2%E0%B8%B0%20SSH',viewMode:view)"
                                             }
                                         },
                                         "footer": "ข้อมูลจาก FMD สวทช."
@@ -380,7 +380,7 @@
                                         "bodyContent": {
                                             "embeddedURL": {
                                                 "method": "GET",
-                                                "url": "https://mes.meca.in.th/s/opendata/app/dashboards#/view/c7c97ef0-d97e-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2019-12-31T17:00:00.000Z',to:'2020-12-30T17:00:00.000Z'))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94%20%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%AF%20%E0%B8%9B%E0%B8%B5%202563',viewMode:view)"
+                                                "url": "https://opendata.mes.meca.in.th/s/opendata/app/dashboards#/view/c7c97ef0-d97e-11eb-9bf9-036b25d96c69?embed=true&_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:'2019-12-31T17:00:00.000Z',to:'2020-12-30T17:00:00.000Z'))&_a=(description:'',filters:!(),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!t,title:'%E0%B8%9B%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%B2%E0%B8%93%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B9%84%E0%B8%94%E0%B9%89%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B8%B3%E0%B8%9A%E0%B8%B1%E0%B8%94%20%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%AF%20%E0%B8%9B%E0%B8%B5%202563',viewMode:view)"
                                             }
                                         },
                                         "footer": "ข้อมูลจาก SED สวทช."
