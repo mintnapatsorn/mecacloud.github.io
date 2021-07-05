@@ -1109,9 +1109,20 @@
                                 {
                                     "id": "urn:smartnstda:HeatMap:wifi:coverage-2021-05",
                                     "data": [
-                                        {"location": {"lat": 14.076909, "lng": 100.601640}, "weight": 34},
-                                        {"location": {"lat": 14.077877, "lng": 100.601377}, "weight": 34},
-                                        {"location": {"lat": 14.078491, "lng": 100.601404}, "weight": 52}
+                                        {"location": {"lat": 14.078423, "lng": 100.601286}, "weight": 11688},
+                                        {"location": {"lat": 14.079932, "lng": 100.602788}, "weight": 2768},
+                                        {"location": {"lat": 14.078621, "lng": 100.602896}, "weight": 2934},
+                                        {"location": {"lat": 14.076894, "lng": 100.601640}, "weight": 8367},
+                                        {"location": {"lat": 14.078340, "lng": 100.602177}, "weight": 2062},
+                                        {"location": {"lat": 14.077893, "lng": 100.602928}, "weight": 2705},
+                                        {"location": {"lat": 14.076758, "lng": 100.602874}, "weight": 123},
+                                        {"location": {"lat": 14.077174, "lng": 100.601361}, "weight": 1314},
+                                        {"location": {"lat": 14.077289, "lng": 100.602981}, "weight": 2121},
+                                        {"location": {"lat": 14.079131, "lng": 100.601426}, "weight": 11032},
+                                        {"location": {"lat": 14.079974, "lng": 100.602134}, "weight": 4446},
+                                        {"location": {"lat": 14.077893, "lng": 100.601479}, "weight": 12824},
+                                        {"location": {"lat": 14.080015, "lng": 100.601619}, "weight": 1778},
+                                        {"location": {"lat": 14.080962, "lng": 100.604398}, "weight": 4953}
                                     ],
                                     "gradient": [
                                         "rgba(0, 255, 255, 0)",
