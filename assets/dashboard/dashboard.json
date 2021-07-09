@@ -2681,7 +2681,7 @@
                                         "lat": 14.078903,
                                         "lng": 100.600708
                                     }
-                                },
+                                }
                             ],
                             "polyline": [
                                 {
@@ -3350,7 +3350,7 @@
                         }
                     ],
                     "name": "รถเวียนรอบอุทยานฯ"
-                }
+                },
                 {
                     "id": "urn:smartnstda:Layer:nstdaShuttle8/2",
                     "defaultMapObjectIndex": 0,
