@@ -252,7 +252,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:biotec:floor1",
+        "id": "urn:smartnstda:Marker:wifi:biotec:floor1",
         "name": "Wifi service อาคาร BIOTEC",
         "iconURL":
         {
@@ -266,7 +266,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:biotecpp:floor1",
+        "id": "urn:smartnstda:Marker:wifi:biotecpp:floor1",
         "name": "Wifi service อาคาร BIOTEC pilot plant ชั้น 1",
         "iconURL":
         {
@@ -280,7 +280,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:biotecpp:GMO",
+        "id": "urn:smartnstda:Marker:wifi:biotecpp:GMO",
         "name": "Wifi service อาคาร BIOTEC pilot plant GMO",
         "iconURL":
         {
@@ -294,7 +294,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:carpark:floor1",
+        "id": "urn:smartnstda:Marker:wifi:carpark:floor1",
         "name": "Wifi service carpark floor 1",
         "iconURL":
         {
@@ -308,7 +308,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:CC:floor1",
+        "id": "urn:smartnstda:Marker:wifi:CC:floor1",
         "name": "Wifi service อาคารศูนย์ประชุมอุทยานวิทยาศาสตร์ฯ floor 1",
         "iconURL":
         {
@@ -322,7 +322,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:CO:floor1",
+        "id": "urn:smartnstda:Marker:wifi:CO:floor1",
         "name": "Wifi service อาคารสำนักงานกลาง floor 1",
         "iconURL":
         {
@@ -336,7 +336,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:coworkingspace",
+        "id": "urn:smartnstda:Marker:wifi:coworkingspace",
         "name": "Wifi service Co-working space",
         "iconURL":
         {
@@ -350,7 +350,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:inc1:floor1",
+        "id": "urn:smartnstda:Marker:wifi:inc1:floor1",
         "name": "Wifi service INC 1 floor 1",
         "iconURL":
         {
@@ -364,7 +364,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:mtec:floor1",
+        "id": "urn:smartnstda:Marker:wifi:mtec:floor1",
         "name": "Wifi service MTEC floor 1",
         "iconURL":
         {
@@ -378,7 +378,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:mtecpp:floor1",
+        "id": "urn:smartnstda:Marker:wifi:mtecpp:floor1",
         "name": "Wifi service MTEC pilot plant floor 1",
         "iconURL":
         {
@@ -392,7 +392,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:nectec:floor1",
+        "id": "urn:smartnstda:Marker:wifi:nectec:floor1",
         "name": "Wifi service NECTEC floor 1",
         "iconURL":
         {
@@ -406,7 +406,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:nectecpp:floor1",
+        "id": "urn:smartnstda:Marker:wifi:nectecpp:floor1",
         "name": "Wifi service NECTEC pilot plant floor 1",
         "iconURL":
         {
@@ -420,7 +420,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:wifiService:ssh:floor1",
+        "id": "urn:smartnstda:Marker:wifi:ssh:floor1",
         "name": "Wifi service บ้านวิทยาศาสตร์สิรินธร floor 1",
         "iconURL":
         {
@@ -434,7 +434,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:ssh",
+        "id": "urn:smartnstda:Marker:inflationPoint:ssh",
         "name": "จุดเติมลม บ้านวิทยาศาสตร์สิรินธร",
         "iconURL":
         {
@@ -448,7 +448,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:p4",
+        "id": "urn:smartnstda:Marker:inflationPoint:p4",
         "name": "จุดเติมลม โซนลานจอดรถ P4 (ลานมัน)",
         "iconURL":
         {
@@ -462,7 +462,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:co",
+        "id": "urn:smartnstda:Marker:inflationPoint:co",
         "name": "จุดเติมลม อาคารสำนักงานกลาง ชั้นใต้ดิน",
         "iconURL":
         {
@@ -476,7 +476,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:p1",
+        "id": "urn:smartnstda:Marker:inflationPoint:p1",
         "name": "ลานจอดรถ P1",
         "iconURL":
         {
@@ -490,7 +490,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:p2",
+        "id": "urn:smartnstda:Marker:inflationPoint:p2",
         "name": "ลานจอดรถ P2",
         "iconURL":
         {
@@ -504,7 +504,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:p3",
+        "id": "urn:smartnstda:Marker:inflationPoint:p3",
         "name": "ลานจอดรถ P3",
         "iconURL":
         {
@@ -518,7 +518,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:p4",
+        "id": "urn:smartnstda:Marker:inflationPoint:p4",
         "name": "ลานจอดรถ P4 (ลานมัน)",
         "iconURL":
         {
@@ -532,7 +532,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:mpb",
+        "id": "urn:smartnstda:Marker:inflationPoint:mpb",
         "name": "อาคารจอดรถ (อาคารสราญวิทย์)",
         "iconURL":
         {
@@ -546,7 +546,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:cc",
+        "id": "urn:smartnstda:Marker:inflationPoint:cc",
         "name": "ลานจอดรถชั้นใต้ดิน ศูนย์ประชุมอุทยานวิทยาศาสตร์ ฯ",
         "iconURL":
         {
@@ -560,7 +560,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:co",
+        "id": "urn:smartnstda:Marker:inflationPoint:co",
         "name": "ลานจอดรถชั้นใต้ดิน อาคารสำนักงานกลาง",
         "iconURL":
         {
@@ -574,7 +574,7 @@
         }
     },
     {
-        "id": "urn:smartnstda:Marker:iflatingpoint:nectec",
+        "id": "urn:smartnstda:Marker:inflationPoint:nectec",
         "name": "ลานจอดรถด้านข้าง อาคารเนคเทค",
         "iconURL":
         {
@@ -586,5 +586,5 @@
             "lat": 14.07760,
             "lng": 100.60145
         }
-    },
+    }
 ]
