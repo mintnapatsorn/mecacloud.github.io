@@ -251,4 +251,340 @@
             "lng": 100.60191
         }
     },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:biotec:floor1",
+        "name": "Wifi service อาคาร BIOTEC",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07845,
+            "lng": 100.60133
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:biotecpp:floor1",
+        "name": "Wifi service อาคาร BIOTEC pilot plant ชั้น 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07988,
+            "lng": 100.60284
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:biotecpp:GMO",
+        "name": "Wifi service อาคาร BIOTEC pilot plant GMO",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07966,
+            "lng": 100.60293
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:carpark:floor1",
+        "name": "Wifi service carpark floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.077884699436499,
+            "lng": 100.60279424857346
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:CC:floor1",
+        "name": "Wifi service อาคารศูนย์ประชุมอุทยานวิทยาศาสตร์ฯ floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07876,
+            "lng": 100.60286
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:CO:floor1",
+        "name": "Wifi service อาคารสำนักงานกลาง floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07691,
+            "lng": 100.60168
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:coworkingspace",
+        "name": "Wifi service Co-working space",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.078715641533957,
+            "lng": 100.60207607153582
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:inc1:floor1",
+        "name": "Wifi service INC 1 floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07730,
+            "lng": 100.60284
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:mtec:floor1",
+        "name": "Wifi service MTEC floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07913,
+            "lng": 100.60138
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:mtecpp:floor1",
+        "name": "Wifi service MTEC pilot plant floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.08004,
+            "lng": 100.60193
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:nectec:floor1",
+        "name": "Wifi service NECTEC floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07784,
+            "lng": 100.60139
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:nectecpp:floor1",
+        "name": "Wifi service NECTEC pilot plant floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07985,
+            "lng": 100.60119
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:wifiService:ssh:floor1",
+        "name": "Wifi service บ้านวิทยาศาสตร์สิรินธร floor 1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.08090,
+            "lng": 100.60406
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:ssh",
+        "name": "จุดเติมลม บ้านวิทยาศาสตร์สิรินธร",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.08127,
+            "lng": 100.60357
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:p4",
+        "name": "จุดเติมลม โซนลานจอดรถ P4 (ลานมัน)",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07776,
+            "lng": 100.60406
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:co",
+        "name": "จุดเติมลม อาคารสำนักงานกลาง ชั้นใต้ดิน",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07695,
+            "lng": 100.60186
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:p1",
+        "name": "ลานจอดรถ P1",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.08037,
+            "lng": 100.60014
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:p2",
+        "name": "ลานจอดรถ P2",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07972,
+            "lng": 100.59875
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:p3",
+        "name": "ลานจอดรถ P3",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.08014,
+            "lng": 100.60008
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:p4",
+        "name": "ลานจอดรถ P4 (ลานมัน)",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07727,
+            "lng": 100.60404
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:mpb",
+        "name": "อาคารจอดรถ (อาคารสราญวิทย์)",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07792,
+            "lng": 100.60290
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:cc",
+        "name": "ลานจอดรถชั้นใต้ดิน ศูนย์ประชุมอุทยานวิทยาศาสตร์ ฯ",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07880,
+            "lng": 100.60282
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:co",
+        "name": "ลานจอดรถชั้นใต้ดิน อาคารสำนักงานกลาง",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07724,
+            "lng": 100.60154
+        }
+    },
+    {
+        "id": "urn:smartnstda:Marker:iflatingpoint:nectec",
+        "name": "ลานจอดรถด้านข้าง อาคารเนคเทค",
+        "iconURL":
+        {
+            "method": "GET",
+            "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/park.png"
+        },
+        "position":
+        {
+            "lat": 14.07760,
+            "lng": 100.60145
+        }
+    },
 ]
