@@ -5099,7 +5099,7 @@
                     "name": "รถบริการสาย 5 โยธี - สวทช.ผ่านยิบซั่ม"
                 },
                 {
-                    "id": "urn:smartnstda:Layer:nstdaShuttle5",
+                    "id": "urn:smartnstda:Layer:nstdaShuttle6",
                     "defaultMapObjectIndex": 0,
                     "mapObjects": [
                         {
@@ -5405,7 +5405,7 @@
                             "name": "รถบริการสาย 6 เดอะมอลล์(บางแค) - สวทช. รอบเช้า"
                         },
                         {
-                            "id": "urn:smartnstda:MapObject:nstdaShuttle1",
+                            "id": "urn:smartnstda:MapObject:nstdaShuttle6",
                             "markers": [
                                 {
                                     "id": "urn:smartnstda:Marker:nstdaShuttle:nstda0",
