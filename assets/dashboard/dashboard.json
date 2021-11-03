@@ -76,7 +76,926 @@
                                         "lat": 14.077870,
                                         "lng": 100.601298
                                     }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:biotec",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารศช.",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารศช.",
+                                    "position":
+                                    {
+                                        "lat": 14.07848,
+                                        "lng": 100.60128
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:mtec",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารศว.",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารศส.",
+                                    "position":
+                                    {
+                                        "lat": 14.07896,
+                                        "lng": 100.60128
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:co",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารสก.",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารสก.",
+                                    "position":
+                                    {
+                                        "lat": 14.07672,
+                                        "lng": 100.60168
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:co3floor",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารสก. ชั้น 3 ส่วนต่อเติมสำนักงานกลาง",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารสก. ชั้น 3 ส่วนต่อเติมสำนักงานกลาง",
+                                    "position":
+                                    {
+                                        "lat": 14.07684,
+                                        "lng": 100.60184
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:coincubwing",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารสก. Incubwing",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารสก. Incubwing",
+                                    "position":
+                                    {
+                                        "lat": 14.07683,
+                                        "lng": 100.60152
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:nectecpp",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคาร NECTEC Pilot plant",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคาร NECTEC Pilot plant",
+                                    "position":
+                                    {
+                                        "lat": 14.07989,
+                                        "lng": 100.60116
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:mtecpp",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคาร MTEC Pilot plant",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคาร MTEC Pilot plant",
+                                    "position":
+                                    {
+                                        "lat": 14.08015,
+                                        "lng": 100.60192
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:biotecpp",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคาร BIOTEC Pilot plant",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคาร BIOTEC Pilot plant",
+                                    "position":
+                                    {
+                                        "lat": 14.07975,
+                                        "lng": 100.60282
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:tot",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคาร TOT",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคาร TOT",
+                                    "position":
+                                    {
+                                        "lat": 14.07676,
+                                        "lng": 100.60282
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc1",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 1 (หักชั้น 3 ส่วนต่อเติมสำนักงานกลาง)",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 1 (หักชั้น 3 ส่วนต่อเติมสำนักงานกลาง)",
+                                    "position":
+                                    {
+                                        "lat": 14.07674,
+                                        "lng": 100.60267
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:cc",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารศูนย์ประชุมฯ",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารศูนย์ประชุมฯ",
+                                    "position":
+                                    {
+                                        "lat": 14.07874,
+                                        "lng": 100.60289
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:betagro",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารศูนย์วิทยาศาสตร์เบทาโกร",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารศูนย์วิทยาศาสตร์เบทาโกร",
+                                    "position":
+                                    {
+                                        "lat": 14.07940,
+                                        "lng": 100.60059
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:ssh",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารบ้านวิทยาศาสตร์สิรินธร",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารบ้านวิทยาศาสตร์สิรินธร",
+                                    "position":
+                                    {
+                                        "lat": 14.08090,
+                                        "lng": 100.60405
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:residence",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารหอพักสหกรณ์ สวทช.",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารหอพักสหกรณ์ สวทช.",
+                                    "position":
+                                    {
+                                        "lat": 14.08077,
+                                        "lng": 100.60295
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2A",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ A",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ A",
+                                    "position":
+                                    {
+                                        "lat": 14.07993,
+                                        "lng": 100.60408
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2B",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ B",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ B",
+                                    "position":
+                                    {
+                                        "lat": 14.07950,
+                                        "lng": 100.60406
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2C",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ C",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ C",
+                                    "position":
+                                    {
+                                        "lat": 14.07933,
+                                        "lng": 100.60405
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2D",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ D",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ D",
+                                    "position":
+                                    {
+                                        "lat": 14.07908,
+                                        "lng": 100.60406
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:inc2E",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ E",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารกลุ่มนวัตกรรม 2 ทาวเวอร์ E",
+                                    "position":
+                                    {
+                                        "lat": 14.07826,
+                                        "lng": 100.60412
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:waterwaste",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าจุดบำบัดน้ำเสีย",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าจุดบำบัดน้ำเสีย",
+                                    "position":
+                                    {
+                                        "lat": 14.08261,
+                                        "lng": 100.60348
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:wastestove",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าเตาเผาขยะ",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าเตาเผาขยะ",
+                                    "position":
+                                    {
+                                        "lat": 14.08272,
+                                        "lng": 100.60273
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:13building",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคาร 13",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคาร 13",
+                                    "position":
+                                    {
+                                        "lat": 14.07692,
+                                        "lng": 100.60412
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:pttproject",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าโครงการ ปตท.",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าโครงการ ปตท.",
+                                    "position":
+                                    {
+                                        "lat": 14.07725,
+                                        "lng": 100.60312
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:coworkingspace",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้า Co-Working space โถงใหญ่",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้า Co-Working space โถงใหญ่",
+                                    "position":
+                                    {
+                                        "lat": 14.07882,
+                                        "lng": 100.60218
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:blackcanyon",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าร้านกาแฟ Black Canyon",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าร้านกาแฟ Black Canyon",
+                                    "position":
+                                    {
+                                        "lat": 14.07862,
+                                        "lng": 100.60211
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:aitoffice",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารสำนักงาน AIT",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารสำนักงาน AIT",
+                                    "position":
+                                    {
+                                        "lat": 14.07646,
+                                        "lng": 100.60560
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:biotecgmo",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคาร Greenhouse ศช.",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคาร Greenhouse ศช.",
+                                    "position":
+                                    {
+                                        "lat": 14.07965,
+                                        "lng": 100.60303
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:nstdaelectricsubstation",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารสถานีไฟฟ้าย่อย สวทช.",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารสถานีไฟฟ้าย่อย สวทช.",
+                                    "position":
+                                    {
+                                        "lat": 14.08100,
+                                        "lng": 100.60149
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:scg",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าบริษัท SCG",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าบริษัท SCG",
+                                    "position":
+                                    {
+                                        "lat": 14.07986,
+                                        "lng": 100.60420
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:nanotecpp",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคาร NANOTEC Pilot plant",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคาร NANOTEC Pilot plant",
+                                    "position":
+                                    {
+                                        "lat": 14.07897,
+                                        "lng": 100.60312
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:mpb",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าอาคารสราญวิทย์",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าอาคารสราญวิทย์",
+                                    "position":
+                                    {
+                                        "lat": 14.07787,
+                                        "lng": 100.60286
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:mpbcanteen",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าศูนย์อาหารอาคารสราญวิทย์",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าศูนย์อาหารอาคารสราญวิทย์",
+                                    "position":
+                                    {
+                                        "lat": 14.07780,
+                                        "lng": 100.60260
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:clinic",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าคลินิคแพทย์",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าคลินิคแพทย์",
+                                    "position":
+                                    {
+                                        "lat": 14.07777,
+                                        "lng": 100.60324
+                                    }
+                                },
+                                {
+                                    "id": "urn:smartnstda:Marker:buildingElectricityUsage:scg2",
+                                    "hoverContent":
+                                    {
+                                        "title": "การใช้ไฟฟ้าบริษัท SCG 2",
+                                        "bodyContent":
+                                        {
+                                            "embeddedURL":
+                                            {
+                                                "method": "GET",
+                                                "url": "https://embedded.dess.web.meca.in.th/dashboard/snapshot/6y4n3gqSbTKPbVt8qQspKaz6eeCilpBA?orgId=1&from=now-1h&to=now&refresh=10s&kiosk"
+                                            }
+                                        },
+                                        "footer": "ข้อมูลจาก DESS / INO ศอ."
+                                    },
+                                    "iconURL":
+                                    {
+                                        "method": "GET",
+                                        "url": "https://docs.meca.in.th/assets/dashboard/Picture/marker/locationpin.png"
+                                    },
+                                    "name": "การใช้ไฟฟ้าบริษัท SCG 2",
+                                    "position":
+                                    {
+                                        "lat": 14.07931,
+                                        "lng": 100.60414
+                                    }
                                 }
+
                             ],
                             "name": "การใช้ไฟฟ้าแต่ละอาคาร"
                         }
